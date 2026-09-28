@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "label_policy": "Reviewed against catalog by agent; no human approvals claimed. Supported means section-backed retrieval, not production readiness.",
+  "cases": [
+    {
+      "case_id": "q001",
+      "query": "ohm law",
+      "category": "paraphrase",
+      "expected_id": "phy_12_001",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q002",
+      "query": "diffusion of ink in water",
+      "category": "paraphrase",
+      "expected_id": "chem_9_001",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q003",
+      "query": "reaction rate with temperature",
+      "category": "paraphrase",
+      "expected_id": "chem_12_902",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q004",
+      "query": "oxalic acid sodium hydroxide titration",
+      "category": "near_match",
+      "expected_id": "chem_12_202",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q005",
+      "query": "enthalpy of neutralisation",
+      "category": "near_match",
+      "expected_id": "chem_12_1002",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q006",
+      "query": "resistance using a metre bridge",
+      "category": "near_match",
+      "expected_id": "phy_12_002",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q007",
+      "query": "acid-base titration",
+      "category": "ambiguous",
+      "expected_id": null,
+      "expected_outcome": "ambiguous",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q008",
+      "query": "focal length",
+      "category": "ambiguous",
+      "expected_id": null,
+      "expected_outcome": "ambiguous",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q009",
+      "query": "reaction rate",
+      "category": "ambiguous",
+      "expected_id": null,
+      "expected_outcome": "ambiguous",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q010",
+      "query": "electrolysis of water",
+      "category": "missing",
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q011",
+      "query": "Young double slit experiment",
+      "category": "missing",
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q012",
+      "query": "magnetic field of a solenoid",
+      "category": "missing",
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q013",
+      "query": "bake a chocolate cake",
+      "category": "out_of_scope",
+      "expected_id": null,
+      "expected_outcome": "out_of_scope",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q014",
+      "query": "write a poem about friendship",
+      "category": "out_of_scope",
+      "expected_id": null,
+      "expected_outcome": "out_of_scope",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q015",
+      "query": "zxqv blorp 998877",
+      "category": "nonsense",
+      "expected_id": null,
+      "expected_outcome": "out_of_scope",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q016",
+      "query": "",
+      "category": "nonsense",
+      "expected_id": null,
+      "expected_outcome": "out_of_scope",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q017",
+      "query": "Determine resistance per unit length of a wire from a potential difference-current graph",
+      "category": "title",
+      "expected_id": "phy_12_001",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q018",
+      "query": "Determine the strength of sodium hydroxide using standard oxalic acid",
+      "category": "title",
+      "expected_id": "chem_12_202",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q019",
+      "query": "Use of Vernier Callipers to measure dimensions, volume, and density",
+      "category": "title",
+      "expected_id": "phy_11_001",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q020",
+      "query": "Prepare acetanilide",
+      "category": "title",
+      "expected_id": "chem_12_603",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q021",
+      "query": "Determine enthalpy of solution of potassium nitrate",
+      "category": "title",
+      "expected_id": "chem_12_1001",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q022",
+      "query": "Draw forward and reverse I-V characteristics of a p-n junction",
+      "category": "title",
+      "expected_id": "phy_12_015",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q023",
+      "query": "Draw a Zener diode characteristic curve and determine reverse breakdown voltage",
+      "category": "title",
+      "expected_id": "phy_12_016",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q024",
+      "query": "Study volume versus pressure for air at constant temperature",
+      "category": "title",
+      "expected_id": "phy_11_010",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q025",
+      "query": "measure wire diameter",
+      "category": "paraphrase",
+      "expected_id": "phy_11_002",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q026",
+      "query": "find speed of sound with resonance tube",
+      "category": "paraphrase",
+      "expected_id": "phy_11_014",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q027",
+      "query": "separate leaf pigments",
+      "category": "paraphrase",
+      "expected_id": "chem_12_501",
+      "expected_outcome": "supported",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q028",
+      "query": "strength of hydrochloric acid sodium carbonate",
+      "category": "paraphrase",
+      "expected_id": "chem_12_204",
+      "expected_outcome": "supported",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending",
+      "rationale": "Catalog title/intent comparison; scientific and scope labels need team confirmation."
+    },
+    {
+      "case_id": "q029",
+      "query": "ohm law",
+      "subject": "Chemistry",
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "category": "filter",
+      "split": "holdout",
+      "review_status": "agent_reviewed_human_confirmation_pending"
+    },
+    {
+      "case_id": "q030",
+      "query": "ohm law",
+      "subject": "Physics",
+      "class_level": 12,
+      "expected_id": "phy_12_001",
+      "expected_outcome": "supported",
+      "category": "filter",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending"
+    },
+    {
+      "case_id": "q031",
+      "query": "ohm law",
+      "class_level": 11,
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "category": "filter",
+      "split": "calibration",
+      "review_status": "agent_reviewed_human_confirmation_pending"
+    }
+  ]
+}

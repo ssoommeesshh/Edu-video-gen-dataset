@@ -1,0 +1,1471 @@
+[
+  {
+    "section_id": "chem_12_101:manual_section",
+    "experiment_id": "chem_12_101",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 1.1",
+    "catalog_title": "Determine the boiling point of an organic compound",
+    "printed_start": 17,
+    "printed_end": 18,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0028",
+      "Manual_01:fc4dcbac1a60:p0029"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_102:manual_section",
+    "experiment_id": "chem_12_102",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 1.2",
+    "catalog_title": "Determine the melting point of an organic compound",
+    "printed_start": 19,
+    "printed_end": 20,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0030",
+      "Manual_01:fc4dcbac1a60:p0031"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_103:manual_section",
+    "experiment_id": "chem_12_103",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 1.3",
+    "catalog_title": "Purify a given compound by crystallisation",
+    "printed_start": 21,
+    "printed_end": 22,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0032",
+      "Manual_01:fc4dcbac1a60:p0033"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_201:manual_section",
+    "experiment_id": "chem_12_201",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 2.1",
+    "catalog_title": "Prepare a standard solution of 0.1 M oxalic acid",
+    "printed_start": 23,
+    "printed_end": 24,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0034",
+      "Manual_01:fc4dcbac1a60:p0035"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_202:manual_section",
+    "experiment_id": "chem_12_202",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 2.2",
+    "catalog_title": "Determine the strength of sodium hydroxide using standard oxalic acid",
+    "printed_start": 25,
+    "printed_end": 28,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0036",
+      "Manual_01:fc4dcbac1a60:p0037",
+      "Manual_01:fc4dcbac1a60:p0038",
+      "Manual_01:fc4dcbac1a60:p0039"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_203:manual_section",
+    "experiment_id": "chem_12_203",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 2.3",
+    "catalog_title": "Prepare a standard solution of 0.05 M sodium carbonate",
+    "printed_start": 29,
+    "printed_end": 30,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0040",
+      "Manual_01:fc4dcbac1a60:p0041"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_204:manual_section",
+    "experiment_id": "chem_12_204",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 2.4",
+    "catalog_title": "Determine the strength of hydrochloric acid using standard sodium carbonate",
+    "printed_start": 31,
+    "printed_end": 34,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0042",
+      "Manual_01:fc4dcbac1a60:p0043",
+      "Manual_01:fc4dcbac1a60:p0044",
+      "Manual_01:fc4dcbac1a60:p0045"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_205:manual_section",
+    "experiment_id": "chem_12_205",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 2.5",
+    "catalog_title": "Determine the molarity of potassium permanganate using 0.05 M oxalic acid",
+    "printed_start": 35,
+    "printed_end": 39,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0046",
+      "Manual_01:fc4dcbac1a60:p0047",
+      "Manual_01:fc4dcbac1a60:p0048",
+      "Manual_01:fc4dcbac1a60:p0049",
+      "Manual_01:fc4dcbac1a60:p0050"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_206:manual_section",
+    "experiment_id": "chem_12_206",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 2.6",
+    "catalog_title": "Determine the molarity of potassium permanganate using Mohr's salt",
+    "printed_start": 40,
+    "printed_end": 44,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0051",
+      "Manual_01:fc4dcbac1a60:p0052",
+      "Manual_01:fc4dcbac1a60:p0053",
+      "Manual_01:fc4dcbac1a60:p0054",
+      "Manual_01:fc4dcbac1a60:p0055"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_301:manual_section",
+    "experiment_id": "chem_12_301",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 3.1",
+    "catalog_title": "Detect one cation and one anion in a salt",
+    "printed_start": 45,
+    "printed_end": 67,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0056",
+      "Manual_01:fc4dcbac1a60:p0057",
+      "Manual_01:fc4dcbac1a60:p0058",
+      "Manual_01:fc4dcbac1a60:p0059",
+      "Manual_01:fc4dcbac1a60:p0060",
+      "Manual_01:fc4dcbac1a60:p0061",
+      "Manual_01:fc4dcbac1a60:p0062",
+      "Manual_01:fc4dcbac1a60:p0063",
+      "Manual_01:fc4dcbac1a60:p0064",
+      "Manual_01:fc4dcbac1a60:p0065",
+      "Manual_01:fc4dcbac1a60:p0066",
+      "Manual_01:fc4dcbac1a60:p0067",
+      "Manual_01:fc4dcbac1a60:p0068",
+      "Manual_01:fc4dcbac1a60:p0069",
+      "Manual_01:fc4dcbac1a60:p0070",
+      "Manual_01:fc4dcbac1a60:p0071",
+      "Manual_01:fc4dcbac1a60:p0072",
+      "Manual_01:fc4dcbac1a60:p0073",
+      "Manual_01:fc4dcbac1a60:p0074",
+      "Manual_01:fc4dcbac1a60:p0075",
+      "Manual_01:fc4dcbac1a60:p0076",
+      "Manual_01:fc4dcbac1a60:p0077",
+      "Manual_01:fc4dcbac1a60:p0078"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_401:manual_section",
+    "experiment_id": "chem_12_401",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 4.1",
+    "catalog_title": "Detect extra elements in an organic compound",
+    "printed_start": 68,
+    "printed_end": 70,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0079",
+      "Manual_01:fc4dcbac1a60:p0080",
+      "Manual_01:fc4dcbac1a60:p0081"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_402:manual_section",
+    "experiment_id": "chem_12_402",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 4.2",
+    "catalog_title": "Identify one functional group in an organic compound",
+    "printed_start": 71,
+    "printed_end": 74,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0082",
+      "Manual_01:fc4dcbac1a60:p0083",
+      "Manual_01:fc4dcbac1a60:p0084",
+      "Manual_01:fc4dcbac1a60:p0085"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_403:manual_section",
+    "experiment_id": "chem_12_403",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 4.3",
+    "catalog_title": "Characterise carbohydrates, fats, and proteins in food",
+    "printed_start": 75,
+    "printed_end": 77,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0086",
+      "Manual_01:fc4dcbac1a60:p0087",
+      "Manual_01:fc4dcbac1a60:p0088"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_501:manual_section",
+    "experiment_id": "chem_12_501",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 5.1",
+    "catalog_title": "Separate pigments from leaf or flower extracts by paper chromatography and determine Rf values",
+    "printed_start": 81,
+    "printed_end": 82,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0092",
+      "Manual_01:fc4dcbac1a60:p0093"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_502:manual_section",
+    "experiment_id": "chem_12_502",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 5.2",
+    "catalog_title": "Separate lead and cadmium ions in an inorganic mixture by paper chromatography",
+    "printed_start": 83,
+    "printed_end": 84,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0094",
+      "Manual_01:fc4dcbac1a60:p0095"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_601:manual_section",
+    "experiment_id": "chem_12_601",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 6.1",
+    "catalog_title": "Prepare potash alum and Mohr's salt double salts",
+    "printed_start": 85,
+    "printed_end": 86,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0096",
+      "Manual_01:fc4dcbac1a60:p0097"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_602:manual_section",
+    "experiment_id": "chem_12_602",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 6.2",
+    "catalog_title": "Prepare potassium trioxalatoferrate(III)",
+    "printed_start": 87,
+    "printed_end": 87,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0098"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_603:manual_section",
+    "experiment_id": "chem_12_603",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 6.3",
+    "catalog_title": "Prepare acetanilide",
+    "printed_start": 88,
+    "printed_end": 89,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0099",
+      "Manual_01:fc4dcbac1a60:p0100"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_604:manual_section",
+    "experiment_id": "chem_12_604",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 6.4",
+    "catalog_title": "Prepare dibenzalacetone",
+    "printed_start": 90,
+    "printed_end": 91,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0101",
+      "Manual_01:fc4dcbac1a60:p0102"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_605:manual_section",
+    "experiment_id": "chem_12_605",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 6.5",
+    "catalog_title": "Prepare p-nitroacetanilide",
+    "printed_start": 92,
+    "printed_end": 93,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0103",
+      "Manual_01:fc4dcbac1a60:p0104"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_606:manual_section",
+    "experiment_id": "chem_12_606",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 6.6",
+    "catalog_title": "Prepare phenyl-azo-beta-naphthol",
+    "printed_start": 94,
+    "printed_end": 95,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0105",
+      "Manual_01:fc4dcbac1a60:p0106"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_607:manual_section",
+    "experiment_id": "chem_12_607",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 6.7",
+    "catalog_title": "Prepare iodoform",
+    "printed_start": 96,
+    "printed_end": 97,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0107",
+      "Manual_01:fc4dcbac1a60:p0108"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_701:manual_section",
+    "experiment_id": "chem_12_701",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 7.1",
+    "catalog_title": "Study pH change by common-ion effect in weak acids and bases",
+    "printed_start": 98,
+    "printed_end": 99,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0109",
+      "Manual_01:fc4dcbac1a60:p0110"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_702:manual_section",
+    "experiment_id": "chem_12_702",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 7.2",
+    "catalog_title": "Study equilibrium shifts caused by ion concentration or temperature",
+    "printed_start": 100,
+    "printed_end": 102,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0111",
+      "Manual_01:fc4dcbac1a60:p0112",
+      "Manual_01:fc4dcbac1a60:p0113"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_801:manual_section",
+    "experiment_id": "chem_12_801",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 8.1",
+    "catalog_title": "Prepare lyophilic and lyophobic sols",
+    "printed_start": 104,
+    "printed_end": 105,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0115",
+      "Manual_01:fc4dcbac1a60:p0116"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_802:manual_section",
+    "experiment_id": "chem_12_802",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 8.2",
+    "catalog_title": "Purify a prepared sol by dialysis",
+    "printed_start": 106,
+    "printed_end": 106,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0117"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_803:manual_section",
+    "experiment_id": "chem_12_803",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 8.3",
+    "catalog_title": "Study the role of emulsifying agents in stabilising oil emulsions",
+    "printed_start": 107,
+    "printed_end": 109,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0118",
+      "Manual_01:fc4dcbac1a60:p0119",
+      "Manual_01:fc4dcbac1a60:p0120"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_901:manual_section",
+    "experiment_id": "chem_12_901",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 9.1",
+    "catalog_title": "Study concentration effects on sodium thiosulphate and hydrochloric acid reaction rate",
+    "printed_start": 111,
+    "printed_end": 112,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0122",
+      "Manual_01:fc4dcbac1a60:p0123"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_902:manual_section",
+    "experiment_id": "chem_12_902",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 9.2",
+    "catalog_title": "Study temperature effects on sodium thiosulphate and hydrochloric acid reaction rate",
+    "printed_start": 113,
+    "printed_end": 113,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0124"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_903:manual_section",
+    "experiment_id": "chem_12_903",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 9.3",
+    "catalog_title": "Study iodide and hydrogen peroxide clock reaction at different concentrations",
+    "printed_start": 114,
+    "printed_end": 115,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0125",
+      "Manual_01:fc4dcbac1a60:p0126"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_904:manual_section",
+    "experiment_id": "chem_12_904",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 9.4",
+    "catalog_title": "Study potassium iodate and sodium sulphite clock reaction",
+    "printed_start": 116,
+    "printed_end": 117,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0127",
+      "Manual_01:fc4dcbac1a60:p0128"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_1001:manual_section",
+    "experiment_id": "chem_12_1001",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 10.1",
+    "catalog_title": "Determine enthalpy of solution of potassium nitrate",
+    "printed_start": 120,
+    "printed_end": 122,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0131",
+      "Manual_01:fc4dcbac1a60:p0132",
+      "Manual_01:fc4dcbac1a60:p0133"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_1002:manual_section",
+    "experiment_id": "chem_12_1002",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 10.2",
+    "catalog_title": "Determine enthalpy of neutralisation of hydrochloric acid and sodium hydroxide",
+    "printed_start": 123,
+    "printed_end": 124,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0134",
+      "Manual_01:fc4dcbac1a60:p0135"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "chem_12_1101:manual_section",
+    "experiment_id": "chem_12_1101",
+    "manual_filename": "Manual_01.pdf",
+    "heading": "Experiment 11.1",
+    "catalog_title": "Study cell potential of Zn|Zn2+||Cu2+|Cu as electrolyte concentration changes",
+    "printed_start": 125,
+    "printed_end": 128,
+    "passage_ids": [
+      "Manual_01:fc4dcbac1a60:p0136",
+      "Manual_01:fc4dcbac1a60:p0137",
+      "Manual_01:fc4dcbac1a60:p0138",
+      "Manual_01:fc4dcbac1a60:p0139"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_001:manual_section",
+    "experiment_id": "phy_11_001",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 1",
+    "catalog_title": "Use of Vernier Callipers to measure dimensions, volume, and density",
+    "printed_start": 1,
+    "printed_end": 6,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_002:manual_section",
+    "experiment_id": "phy_11_002",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 2",
+    "catalog_title": "Use of screw gauge to measure wire diameter, sheet thickness, and lamina volume",
+    "printed_start": 7,
+    "printed_end": 11,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_003:manual_section",
+    "experiment_id": "phy_11_003",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 3",
+    "catalog_title": "Determine the radius of curvature of a spherical surface by a spherometer",
+    "printed_start": 12,
+    "printed_end": 15,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_004:manual_section",
+    "experiment_id": "phy_11_004",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 4",
+    "catalog_title": "Determine masses of two objects using a beam balance",
+    "printed_start": 16,
+    "printed_end": 18,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_005:manual_section",
+    "experiment_id": "phy_11_005",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 5",
+    "catalog_title": "Measure the weight of a body using the parallelogram law of vector addition",
+    "printed_start": 19,
+    "printed_end": 22,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_006:manual_section",
+    "experiment_id": "phy_11_006",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 6",
+    "catalog_title": "Plot L-T and L-T squared graphs for a simple pendulum and find effective length of a seconds pendulum",
+    "printed_start": 23,
+    "printed_end": 26,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_007:manual_section",
+    "experiment_id": "phy_11_007",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 7",
+    "catalog_title": "Study limiting friction versus normal reaction and determine coefficient of friction",
+    "printed_start": 27,
+    "printed_end": 30,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_008:manual_section",
+    "experiment_id": "phy_11_008",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 8",
+    "catalog_title": "Find the downward force on a roller along an inclined plane and relate it to sin theta",
+    "printed_start": 31,
+    "printed_end": 32,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_009:manual_section",
+    "experiment_id": "phy_11_009",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 9",
+    "catalog_title": "Find the force constant and effective mass of a helical spring using oscillations",
+    "printed_start": 33,
+    "printed_end": 36,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_010:manual_section",
+    "experiment_id": "phy_11_010",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 10",
+    "catalog_title": "Study volume versus pressure for air at constant temperature",
+    "printed_start": 37,
+    "printed_end": 40,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_011:manual_section",
+    "experiment_id": "phy_11_011",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 11",
+    "catalog_title": "Determine coefficient of viscosity of a liquid using terminal velocity",
+    "printed_start": 41,
+    "printed_end": 44,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_012:manual_section",
+    "experiment_id": "phy_11_012",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 12",
+    "catalog_title": "Study temperature of a hot body versus time using a cooling curve",
+    "printed_start": 45,
+    "printed_end": 47,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_013:manual_section",
+    "experiment_id": "phy_11_013",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 13",
+    "catalog_title": "Study frequency and length, and length and tension, of a wire using a sonometer",
+    "printed_start": 48,
+    "printed_end": 51,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_014:manual_section",
+    "experiment_id": "phy_11_014",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 14",
+    "catalog_title": "Determine speed of sound in air using a resonance tube",
+    "printed_start": 52,
+    "printed_end": 55,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_015:manual_section",
+    "experiment_id": "phy_11_015",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Experiment 15",
+    "catalog_title": "Determine specific heat capacity of a solid and liquid by the method of mixtures",
+    "printed_start": 56,
+    "printed_end": 61,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_101:manual_section",
+    "experiment_id": "phy_11_101",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 1",
+    "catalog_title": "Make paper scales of least count 0.2 cm and 0.5 cm and measure length",
+    "printed_start": 62,
+    "printed_end": 63,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_102:manual_section",
+    "experiment_id": "phy_11_102",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 2",
+    "catalog_title": "Determine mass of a body using a metre scale and the principle of moments",
+    "printed_start": 64,
+    "printed_end": 66,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_103:manual_section",
+    "experiment_id": "phy_11_103",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 3",
+    "catalog_title": "Plot a graph from data using a proper scale and show precision error bars",
+    "printed_start": 67,
+    "printed_end": 69,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_104:manual_section",
+    "experiment_id": "phy_11_104",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 4",
+    "catalog_title": "Measure rolling friction force for a roller on a horizontal plane",
+    "printed_start": 70,
+    "printed_end": 72,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_105:manual_section",
+    "experiment_id": "phy_11_105",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 5",
+    "catalog_title": "Study range of a water jet versus angle of projection",
+    "printed_start": 73,
+    "printed_end": 75,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_106:manual_section",
+    "experiment_id": "phy_11_106",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 6",
+    "catalog_title": "Study conservation of energy of a ball rolling down an inclined plane",
+    "printed_start": 76,
+    "printed_end": 78,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_107:manual_section",
+    "experiment_id": "phy_11_107",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 7",
+    "catalog_title": "Study dissipation of energy of a simple pendulum with time",
+    "printed_start": 79,
+    "printed_end": 81,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_108:manual_section",
+    "experiment_id": "phy_11_108",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 8",
+    "catalog_title": "Observe change of state and plot a cooling curve for molten wax",
+    "printed_start": 82,
+    "printed_end": 83,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_109:manual_section",
+    "experiment_id": "phy_11_109",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 9",
+    "catalog_title": "Observe and explain heating of a bi-metallic strip",
+    "printed_start": 84,
+    "printed_end": 85,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_110:manual_section",
+    "experiment_id": "phy_11_110",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 10",
+    "catalog_title": "Study heating effect on liquid level in a container",
+    "printed_start": 86,
+    "printed_end": 87,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_111:manual_section",
+    "experiment_id": "phy_11_111",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 11",
+    "catalog_title": "Study detergent effect on water surface tension using capillary rise",
+    "printed_start": 88,
+    "printed_end": 89,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_11_112:manual_section",
+    "experiment_id": "phy_11_112",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 11 Activity 12",
+    "catalog_title": "Study load effect on depression of a clamped metre scale",
+    "printed_start": 90,
+    "printed_end": 92,
+    "passage_ids": [],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_001:manual_section",
+    "experiment_id": "phy_12_001",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 1",
+    "catalog_title": "Determine resistance per unit length of a wire from a potential difference-current graph",
+    "printed_start": 94,
+    "printed_end": 96,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0122",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0123",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0124"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_002:manual_section",
+    "experiment_id": "phy_12_002",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 2",
+    "catalog_title": "Determine wire resistance and resistivity using a metre bridge",
+    "printed_start": 97,
+    "printed_end": 102,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0125",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0126",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0127",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0128",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0129",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0130"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_003:manual_section",
+    "experiment_id": "phy_12_003",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 3",
+    "catalog_title": "Verify series and parallel laws of combination of resistances using a metre bridge",
+    "printed_start": 103,
+    "printed_end": 106,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0131",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0132",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0133",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0134"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_004:manual_section",
+    "experiment_id": "phy_12_004",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 4",
+    "catalog_title": "Compare emf of Daniel and Leclanche primary cells using a potentiometer",
+    "printed_start": 107,
+    "printed_end": 110,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0135",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0136",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0137",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0138"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_005:manual_section",
+    "experiment_id": "phy_12_005",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 5",
+    "catalog_title": "Determine internal resistance of a primary cell using a potentiometer",
+    "printed_start": 111,
+    "printed_end": 113,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0139",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0140",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0141"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_006:manual_section",
+    "experiment_id": "phy_12_006",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 6",
+    "catalog_title": "Determine galvanometer resistance by half-deflection and its figure of merit",
+    "printed_start": 114,
+    "printed_end": 118,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0142",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0143",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0144",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0145",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0146"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_007:manual_section",
+    "experiment_id": "phy_12_007",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 7",
+    "catalog_title": "Convert a galvanometer into an ammeter and voltmeter and verify the ranges",
+    "printed_start": 119,
+    "printed_end": 124,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0147",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0148",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0149",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0150",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0151",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0152"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_008:manual_section",
+    "experiment_id": "phy_12_008",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 8",
+    "catalog_title": "Determine frequency of alternating current using a sonometer",
+    "printed_start": 125,
+    "printed_end": 128,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0153",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0154",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0155",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0156"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_009:manual_section",
+    "experiment_id": "phy_12_009",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 9",
+    "catalog_title": "Find focal length of a concave mirror from object and image distances",
+    "printed_start": 129,
+    "printed_end": 132,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0157",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0158",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0159",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0160"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_010:manual_section",
+    "experiment_id": "phy_12_010",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 10",
+    "catalog_title": "Find focal length of a convex lens using u-v or reciprocal graphs",
+    "printed_start": 133,
+    "printed_end": 137,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0161",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0162",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0163",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0164",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0165"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_011:manual_section",
+    "experiment_id": "phy_12_011",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 11",
+    "catalog_title": "Find focal length of a convex mirror using a convex lens",
+    "printed_start": 138,
+    "printed_end": 140,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0166",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0167",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0168"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_012:manual_section",
+    "experiment_id": "phy_12_012",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 12",
+    "catalog_title": "Find focal length of a concave lens with a convex lens",
+    "printed_start": 141,
+    "printed_end": 144,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0169",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0170",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0171",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0172"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_013:manual_section",
+    "experiment_id": "phy_12_013",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 13",
+    "catalog_title": "Determine minimum deviation angle of a glass prism from an incidence-deviation graph",
+    "printed_start": 145,
+    "printed_end": 148,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0173",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0174",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0175",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0176"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_014:manual_section",
+    "experiment_id": "phy_12_014",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 14",
+    "catalog_title": "Determine refractive index of water using a concave mirror, convex lens, and plane mirror",
+    "printed_start": 149,
+    "printed_end": 155,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0177",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0178",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0179",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0180",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0181",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0182",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0183"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_015:manual_section",
+    "experiment_id": "phy_12_015",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 15",
+    "catalog_title": "Draw forward and reverse I-V characteristics of a p-n junction",
+    "printed_start": 156,
+    "printed_end": 158,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0184",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0185",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0186"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_016:manual_section",
+    "experiment_id": "phy_12_016",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 16",
+    "catalog_title": "Draw a Zener diode characteristic curve and determine reverse breakdown voltage",
+    "printed_start": 159,
+    "printed_end": 160,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0187",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0188"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_017:manual_section",
+    "experiment_id": "phy_12_017",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Experiment 17",
+    "catalog_title": "Study common-emitter transistor characteristics and determine current and voltage gains",
+    "printed_start": 161,
+    "printed_end": 164,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0189",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0190",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0191",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0192"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_101:manual_section",
+    "experiment_id": "phy_12_101",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 1",
+    "catalog_title": "Assemble components of a given electrical circuit",
+    "printed_start": 165,
+    "printed_end": 166,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0193",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0194"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_102:manual_section",
+    "experiment_id": "phy_12_102",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 2",
+    "catalog_title": "Correct an incorrectly connected circuit and draw the corrected diagram",
+    "printed_start": 167,
+    "printed_end": 168,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0195",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0196"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_103:manual_section",
+    "experiment_id": "phy_12_103",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 3",
+    "catalog_title": "Measure resistance and impedance of an inductor with or without an iron core",
+    "printed_start": 169,
+    "printed_end": 173,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0197",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0198",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0199",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0200",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0201"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_104:manual_section",
+    "experiment_id": "phy_12_104",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 4",
+    "catalog_title": "Use a multimeter to measure resistance, voltage, current, and continuity",
+    "printed_start": 174,
+    "printed_end": 175,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0202",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0203"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_105:manual_section",
+    "experiment_id": "phy_12_105",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 5",
+    "catalog_title": "Assemble a household circuit with bulbs, switches, fuse, and power source",
+    "printed_start": 176,
+    "printed_end": 176,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0204"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_106:manual_section",
+    "experiment_id": "phy_12_106",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 6",
+    "catalog_title": "Study potential drop versus length for a steady-current wire",
+    "printed_start": 177,
+    "printed_end": 179,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0205",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0206",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0207"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_107:manual_section",
+    "experiment_id": "phy_12_107",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 7",
+    "catalog_title": "Study light intensity effect on an LDR by varying source distance",
+    "printed_start": 180,
+    "printed_end": 181,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0208",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0209"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_108:manual_section",
+    "experiment_id": "phy_12_108",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 8",
+    "catalog_title": "Identify a diode, LED, transistor, IC, resistor, and capacitor from a mixed set",
+    "printed_start": 182,
+    "printed_end": 184,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0210",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0211",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0212"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_109:manual_section",
+    "experiment_id": "phy_12_109",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 9",
+    "catalog_title": "Check a diode, distinguish npn and pnp transistors, and identify transistor terminals",
+    "printed_start": 185,
+    "printed_end": 186,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0213",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0214"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_110:manual_section",
+    "experiment_id": "phy_12_110",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 10",
+    "catalog_title": "Observe refraction and lateral deviation through a glass slab",
+    "printed_start": 187,
+    "printed_end": 188,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0215",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0216"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_111:manual_section",
+    "experiment_id": "phy_12_111",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 11",
+    "catalog_title": "Observe polarisation using two polaroids",
+    "printed_start": 189,
+    "printed_end": 189,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0217"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_112:manual_section",
+    "experiment_id": "phy_12_112",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 12",
+    "catalog_title": "Observe diffraction of light through a thin slit",
+    "printed_start": 190,
+    "printed_end": 190,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0218"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_113:manual_section",
+    "experiment_id": "phy_12_113",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 13",
+    "catalog_title": "Study image nature and size for a convex lens and concave mirror using candle and screen",
+    "printed_start": 191,
+    "printed_end": 194,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0219",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0220",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0221",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0222"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  },
+  {
+    "section_id": "phy_12_114:manual_section",
+    "experiment_id": "phy_12_114",
+    "manual_filename": "Physics_Laboratory_Manual_11-12_E.pdf",
+    "heading": "Class 12 Activity 14",
+    "catalog_title": "Determine focal length of two lenses in contact",
+    "printed_start": 195,
+    "printed_end": 196,
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0223",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0224"
+    ],
+    "review_status": "needs_review",
+    "human_review": "pending",
+    "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
+  }
+]

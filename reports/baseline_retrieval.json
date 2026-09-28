@@ -1,0 +1,910 @@
+{
+  "revision": "d366de4a46caad4af8b54619e163658200c2d02e",
+  "benchmark_sha256": "c6e35c98a5d9bb989cedac99b2b03ea6e04709be9c2bc519c26861cd598f50ee",
+  "rows": [
+    {
+      "case_id": "q001",
+      "query": "ohm law",
+      "candidates": [
+        {
+          "score": 0.3219884449276741,
+          "id": "phy_12_001",
+          "title": "Determine resistance per unit length of a wire from a potential difference-current graph",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.22122629145235168,
+          "id": "phy_12_007",
+          "title": "Convert a galvanometer into an ammeter and voltmeter and verify the ranges",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.163217756339606,
+          "id": "phy_12_017",
+          "title": "Study common-emitter transistor characteristics and determine current and voltage gains",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q002",
+      "query": "diffusion of ink in water",
+      "candidates": [
+        {
+          "score": 0.4614836695458387,
+          "id": "chem_9_001",
+          "title": "Diffusion of an Ink Drop in Water",
+          "subject": "Chemistry",
+          "class_level": 9
+        },
+        {
+          "score": 0.060810604427656484,
+          "id": "chem_11_001",
+          "title": "Preparation of a Standard Solution",
+          "subject": "Chemistry",
+          "class_level": 11
+        },
+        {
+          "score": 0.04651321071852413,
+          "id": "chem_12_201",
+          "title": "Prepare a standard solution of 0.1 M oxalic acid",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q003",
+      "query": "reaction rate with temperature",
+      "candidates": [
+        {
+          "score": 0.3902200615060887,
+          "id": "chem_12_901",
+          "title": "Study concentration effects on sodium thiosulphate and hydrochloric acid reaction rate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.37838783240191326,
+          "id": "chem_12_902",
+          "title": "Study temperature effects on sodium thiosulphate and hydrochloric acid reaction rate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.12436330286090541,
+          "id": "chem_12_903",
+          "title": "Study iodide and hydrogen peroxide clock reaction at different concentrations",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q004",
+      "query": "oxalic acid sodium hydroxide titration",
+      "candidates": [
+        {
+          "score": 0.4457787334478166,
+          "id": "chem_12_202",
+          "title": "Determine the strength of sodium hydroxide using standard oxalic acid",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.3637955050650264,
+          "id": "chem_12_1002",
+          "title": "Determine enthalpy of neutralisation of hydrochloric acid and sodium hydroxide",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.26897606650380357,
+          "id": "chem_12_201",
+          "title": "Prepare a standard solution of 0.1 M oxalic acid",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q005",
+      "query": "enthalpy of neutralisation",
+      "candidates": [
+        {
+          "score": 0.38488325359205666,
+          "id": "chem_12_1002",
+          "title": "Determine enthalpy of neutralisation of hydrochloric acid and sodium hydroxide",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.1447328156391161,
+          "id": "chem_12_1001",
+          "title": "Determine enthalpy of solution of potassium nitrate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_114",
+          "title": "Determine focal length of two lenses in contact",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q006",
+      "query": "resistance using a metre bridge",
+      "candidates": [
+        {
+          "score": 0.38454704463732253,
+          "id": "phy_12_002",
+          "title": "Determine wire resistance and resistivity using a metre bridge",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.30126206096858354,
+          "id": "phy_12_001",
+          "title": "Determine resistance per unit length of a wire from a potential difference-current graph",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.22339577006861383,
+          "id": "phy_12_104",
+          "title": "Use a multimeter to measure resistance, voltage, current, and continuity",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q007",
+      "query": "acid-base titration",
+      "candidates": [
+        {
+          "score": 0.18027468388640733,
+          "id": "chem_12_1002",
+          "title": "Determine enthalpy of neutralisation of hydrochloric acid and sodium hydroxide",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.14786160533643278,
+          "id": "chem_12_701",
+          "title": "Study pH change by common-ion effect in weak acids and bases",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.08775537110855285,
+          "id": "chem_12_205",
+          "title": "Determine the molarity of potassium permanganate using 0.05 M oxalic acid",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q008",
+      "query": "focal length",
+      "candidates": [
+        {
+          "score": 0.41577194052998073,
+          "id": "phy_12_114",
+          "title": "Determine focal length of two lenses in contact",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.3792203447408046,
+          "id": "phy_12_012",
+          "title": "Find focal length of a concave lens with a convex lens",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.36962763123578657,
+          "id": "phy_12_010",
+          "title": "Find focal length of a convex lens using u-v or reciprocal graphs",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q009",
+      "query": "reaction rate",
+      "candidates": [
+        {
+          "score": 0.4063544862681917,
+          "id": "chem_12_901",
+          "title": "Study concentration effects on sodium thiosulphate and hydrochloric acid reaction rate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.37400647738119575,
+          "id": "chem_12_902",
+          "title": "Study temperature effects on sodium thiosulphate and hydrochloric acid reaction rate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.13156972031360836,
+          "id": "chem_12_903",
+          "title": "Study iodide and hydrogen peroxide clock reaction at different concentrations",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q010",
+      "query": "electrolysis of water",
+      "candidates": [
+        {
+          "score": 0.2217530713453852,
+          "id": "chem_9_001",
+          "title": "Diffusion of an Ink Drop in Water",
+          "subject": "Chemistry",
+          "class_level": 9
+        },
+        {
+          "score": 0.16480734775378153,
+          "id": "chem_8_001",
+          "title": "Testing Solubility of Common Substances",
+          "subject": "Chemistry",
+          "class_level": 8
+        },
+        {
+          "score": 0.1272059540091117,
+          "id": "phy_11_105",
+          "title": "Study range of a water jet versus angle of projection",
+          "subject": "Physics",
+          "class_level": 11
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q011",
+      "query": "Young double slit experiment",
+      "candidates": [
+        {
+          "score": 0.240094434199741,
+          "id": "phy_12_112",
+          "title": "Observe diffraction of light through a thin slit",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.15382578080939416,
+          "id": "chem_12_601",
+          "title": "Prepare potash alum and Mohr's salt double salts",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.006975324558131766,
+          "id": "phy_12_008",
+          "title": "Determine frequency of alternating current using a sonometer",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q012",
+      "query": "magnetic field of a solenoid",
+      "candidates": [
+        {
+          "score": 0.0,
+          "id": "phy_12_114",
+          "title": "Determine focal length of two lenses in contact",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_113",
+          "title": "Study image nature and size for a convex lens and concave mirror using candle and screen",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_112",
+          "title": "Observe diffraction of light through a thin slit",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q013",
+      "query": "bake a chocolate cake",
+      "candidates": [
+        {
+          "score": 0.0,
+          "id": "phy_12_114",
+          "title": "Determine focal length of two lenses in contact",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_113",
+          "title": "Study image nature and size for a convex lens and concave mirror using candle and screen",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_112",
+          "title": "Observe diffraction of light through a thin slit",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q014",
+      "query": "write a poem about friendship",
+      "candidates": [
+        {
+          "score": 0.04161276325841663,
+          "id": "chem_10_002",
+          "title": "Reaction of Iron Nails with Copper Sulphate",
+          "subject": "Chemistry",
+          "class_level": 10
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_114",
+          "title": "Determine focal length of two lenses in contact",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_112",
+          "title": "Observe diffraction of light through a thin slit",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q015",
+      "query": "zxqv blorp 998877",
+      "candidates": [
+        {
+          "score": 0.0,
+          "id": "phy_12_114",
+          "title": "Determine focal length of two lenses in contact",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_113",
+          "title": "Study image nature and size for a convex lens and concave mirror using candle and screen",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_112",
+          "title": "Observe diffraction of light through a thin slit",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q016",
+      "query": "",
+      "candidates": [
+        {
+          "score": 0.0,
+          "id": "phy_12_114",
+          "title": "Determine focal length of two lenses in contact",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_113",
+          "title": "Study image nature and size for a convex lens and concave mirror using candle and screen",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.0,
+          "id": "phy_12_112",
+          "title": "Observe diffraction of light through a thin slit",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q017",
+      "query": "Determine resistance per unit length of a wire from a potential difference-current graph",
+      "candidates": [
+        {
+          "score": 0.5560099024383522,
+          "id": "phy_12_001",
+          "title": "Determine resistance per unit length of a wire from a potential difference-current graph",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.21544681448680056,
+          "id": "phy_12_007",
+          "title": "Convert a galvanometer into an ammeter and voltmeter and verify the ranges",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.19806800631637916,
+          "id": "phy_12_104",
+          "title": "Use a multimeter to measure resistance, voltage, current, and continuity",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q018",
+      "query": "Determine the strength of sodium hydroxide using standard oxalic acid",
+      "candidates": [
+        {
+          "score": 0.8178788741717947,
+          "id": "chem_12_202",
+          "title": "Determine the strength of sodium hydroxide using standard oxalic acid",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.3298585911782095,
+          "id": "chem_12_204",
+          "title": "Determine the strength of hydrochloric acid using standard sodium carbonate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.24551486187395613,
+          "id": "chem_12_201",
+          "title": "Prepare a standard solution of 0.1 M oxalic acid",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q019",
+      "query": "Use of Vernier Callipers to measure dimensions, volume, and density",
+      "candidates": [
+        {
+          "score": 0.8873799206291693,
+          "id": "phy_11_001",
+          "title": "Use of Vernier Callipers to measure dimensions, volume, and density",
+          "subject": "Physics",
+          "class_level": 11
+        },
+        {
+          "score": 0.09654593480468543,
+          "id": "phy_11_002",
+          "title": "Use of screw gauge to measure wire diameter, sheet thickness, and lamina volume",
+          "subject": "Physics",
+          "class_level": 11
+        },
+        {
+          "score": 0.07691910116668349,
+          "id": "phy_12_104",
+          "title": "Use a multimeter to measure resistance, voltage, current, and continuity",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q020",
+      "query": "Prepare acetanilide",
+      "candidates": [
+        {
+          "score": 0.4712959334118032,
+          "id": "chem_12_603",
+          "title": "Prepare acetanilide",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.14372211081446845,
+          "id": "chem_12_605",
+          "title": "Prepare p-nitroacetanilide",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.07449308344153782,
+          "id": "chem_12_801",
+          "title": "Prepare lyophilic and lyophobic sols",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q021",
+      "query": "Determine enthalpy of solution of potassium nitrate",
+      "candidates": [
+        {
+          "score": 0.7591269353759706,
+          "id": "chem_12_1001",
+          "title": "Determine enthalpy of solution of potassium nitrate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.17357548184732424,
+          "id": "chem_12_1002",
+          "title": "Determine enthalpy of neutralisation of hydrochloric acid and sodium hydroxide",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.11028987122611694,
+          "id": "chem_12_206",
+          "title": "Determine the molarity of potassium permanganate using Mohr's salt",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q022",
+      "query": "Draw forward and reverse I-V characteristics of a p-n junction",
+      "candidates": [
+        {
+          "score": 0.8679067228296359,
+          "id": "phy_12_015",
+          "title": "Draw forward and reverse I-V characteristics of a p-n junction",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.1208596046386414,
+          "id": "phy_12_016",
+          "title": "Draw a Zener diode characteristic curve and determine reverse breakdown voltage",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.07179135806373964,
+          "id": "phy_12_017",
+          "title": "Study common-emitter transistor characteristics and determine current and voltage gains",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q023",
+      "query": "Draw a Zener diode characteristic curve and determine reverse breakdown voltage",
+      "candidates": [
+        {
+          "score": 0.7354009410950966,
+          "id": "phy_12_016",
+          "title": "Draw a Zener diode characteristic curve and determine reverse breakdown voltage",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.15573006845910323,
+          "id": "phy_12_007",
+          "title": "Convert a galvanometer into an ammeter and voltmeter and verify the ranges",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.11373165655210546,
+          "id": "phy_12_104",
+          "title": "Use a multimeter to measure resistance, voltage, current, and continuity",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q024",
+      "query": "Study volume versus pressure for air at constant temperature",
+      "candidates": [
+        {
+          "score": 0.8844513662108213,
+          "id": "phy_11_010",
+          "title": "Study volume versus pressure for air at constant temperature",
+          "subject": "Physics",
+          "class_level": 11
+        },
+        {
+          "score": 0.09774513505235188,
+          "id": "phy_11_012",
+          "title": "Study temperature of a hot body versus time using a cooling curve",
+          "subject": "Physics",
+          "class_level": 11
+        },
+        {
+          "score": 0.07197360901570901,
+          "id": "phy_11_105",
+          "title": "Study range of a water jet versus angle of projection",
+          "subject": "Physics",
+          "class_level": 11
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q025",
+      "query": "measure wire diameter",
+      "candidates": [
+        {
+          "score": 0.4426882840102375,
+          "id": "phy_11_002",
+          "title": "Use of screw gauge to measure wire diameter, sheet thickness, and lamina volume",
+          "subject": "Physics",
+          "class_level": 11
+        },
+        {
+          "score": 0.08765532320959313,
+          "id": "phy_12_002",
+          "title": "Determine wire resistance and resistivity using a metre bridge",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.07941912033276495,
+          "id": "phy_12_106",
+          "title": "Study potential drop versus length for a steady-current wire",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q026",
+      "query": "find speed of sound with resonance tube",
+      "candidates": [
+        {
+          "score": 0.6331252771066361,
+          "id": "phy_11_014",
+          "title": "Determine speed of sound in air using a resonance tube",
+          "subject": "Physics",
+          "class_level": 11
+        },
+        {
+          "score": 0.034257254248759465,
+          "id": "chem_12_101",
+          "title": "Determine the boiling point of an organic compound",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.030213589362736822,
+          "id": "chem_11_002",
+          "title": "Effect of Concentration on an Equilibrium",
+          "subject": "Chemistry",
+          "class_level": 11
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q027",
+      "query": "separate leaf pigments",
+      "candidates": [
+        {
+          "score": 0.30485797870679177,
+          "id": "chem_12_501",
+          "title": "Separate pigments from leaf or flower extracts by paper chromatography and determine Rf values",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.05664913949529121,
+          "id": "chem_12_502",
+          "title": "Separate lead and cadmium ions in an inorganic mixture by paper chromatography",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.019431099441004292,
+          "id": "chem_12_602",
+          "title": "Prepare potassium trioxalatoferrate(III)",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q028",
+      "query": "strength of hydrochloric acid sodium carbonate",
+      "candidates": [
+        {
+          "score": 0.6182445445108045,
+          "id": "chem_12_204",
+          "title": "Determine the strength of hydrochloric acid using standard sodium carbonate",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.30208821975935013,
+          "id": "chem_12_1002",
+          "title": "Determine enthalpy of neutralisation of hydrochloric acid and sodium hydroxide",
+          "subject": "Chemistry",
+          "class_level": 12
+        },
+        {
+          "score": 0.26711070343194887,
+          "id": "chem_12_203",
+          "title": "Prepare a standard solution of 0.05 M sodium carbonate",
+          "subject": "Chemistry",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q029",
+      "query": "ohm law",
+      "candidates": [
+        {
+          "score": 0.3219884449276741,
+          "id": "phy_12_001",
+          "title": "Determine resistance per unit length of a wire from a potential difference-current graph",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.22122629145235168,
+          "id": "phy_12_007",
+          "title": "Convert a galvanometer into an ammeter and voltmeter and verify the ranges",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.163217756339606,
+          "id": "phy_12_017",
+          "title": "Study common-emitter transistor characteristics and determine current and voltage gains",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q030",
+      "query": "ohm law",
+      "candidates": [
+        {
+          "score": 0.3219884449276741,
+          "id": "phy_12_001",
+          "title": "Determine resistance per unit length of a wire from a potential difference-current graph",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.22122629145235168,
+          "id": "phy_12_007",
+          "title": "Convert a galvanometer into an ammeter and voltmeter and verify the ranges",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.163217756339606,
+          "id": "phy_12_017",
+          "title": "Study common-emitter transistor characteristics and determine current and voltage gains",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    },
+    {
+      "case_id": "q031",
+      "query": "ohm law",
+      "candidates": [
+        {
+          "score": 0.3219884449276741,
+          "id": "phy_12_001",
+          "title": "Determine resistance per unit length of a wire from a potential difference-current graph",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.22122629145235168,
+          "id": "phy_12_007",
+          "title": "Convert a galvanometer into an ammeter and voltmeter and verify the ranges",
+          "subject": "Physics",
+          "class_level": 12
+        },
+        {
+          "score": 0.163217756339606,
+          "id": "phy_12_017",
+          "title": "Study common-emitter transistor characteristics and determine current and voltage gains",
+          "subject": "Physics",
+          "class_level": 12
+        }
+      ],
+      "outcome": "supported",
+      "note": "Legacy accepted every query; filters unsupported."
+    }
+  ],
+  "invalid_legacy_label": {
+    "query": "acid-base titration",
+    "old_expected_id": "chem_12_1002",
+    "correction": "ambiguous: multiple titrations; enthalpy of neutralisation is not a titration"
+  }
+}

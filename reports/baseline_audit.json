@@ -1,0 +1,2142 @@
+{
+  "input_sha256": "5d7f224bfa3d3b7e860a3b29b9a4cd8cad139f4e6297f07739e6b6aa5e4fffc1",
+  "record_count": 100,
+  "duplicate_ids": [],
+  "subject_counts": {
+    "Chemistry": 42,
+    "Physics": 58
+  },
+  "heuristics": "Vague observation regex flags are review candidates, not scientific judgments.",
+  "totals": {
+    "missing_fields": 0,
+    "vague_observations": 351,
+    "unlinked_steps": 376,
+    "unlocated_sources": 100,
+    "placeholder_images": 100
+  },
+  "records": [
+    {
+      "experiment_id": "chem_8_001",
+      "missing_fields": [],
+      "vague_observations": [
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_textbooks_portal"
+      ],
+      "placeholder_images": [
+        "chem_8_001_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_8_002",
+      "missing_fields": [],
+      "vague_observations": [],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_textbooks_portal"
+      ],
+      "placeholder_images": [
+        "chem_8_002_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_9_001",
+      "missing_fields": [],
+      "vague_observations": [],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_textbooks_portal"
+      ],
+      "placeholder_images": [
+        "chem_9_001_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_9_002",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_textbooks_portal"
+      ],
+      "placeholder_images": [
+        "chem_9_002_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_10_001",
+      "missing_fields": [],
+      "vague_observations": [
+        2,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_textbooks_portal"
+      ],
+      "placeholder_images": [
+        "chem_10_001_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_10_002",
+      "missing_fields": [],
+      "vague_observations": [],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_textbooks_portal"
+      ],
+      "placeholder_images": [
+        "chem_10_002_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_11_001",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_lab_manuals"
+      ],
+      "placeholder_images": [
+        "chem_11_001_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_11_002",
+      "missing_fields": [],
+      "vague_observations": [],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "ncert_textbooks_portal"
+      ],
+      "placeholder_images": [
+        "chem_11_002_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_101",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_101_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_102",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_102_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_103",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_103_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_201",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_201_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_202",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_202_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_203",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_203_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_204",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_204_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_205",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_205_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_206",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_206_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_301",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_301_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_401",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_401_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_402",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_402_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_403",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_403_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_501",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_501_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_502",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_502_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_601",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_601_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_602",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_602_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_603",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_603_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_604",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_604_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_605",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_605_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_606",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_606_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_607",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_607_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_701",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_701_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_702",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_702_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_801",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_801_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_802",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_802_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_803",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_803_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_901",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_901_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_902",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_902_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_903",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_903_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_904",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_904_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_1001",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_1001_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_1002",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_1002_start"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_1101",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "manual_01_pdf"
+      ],
+      "placeholder_images": [
+        "chem_12_1101_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_001",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_001_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_002",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_002_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_003",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_003_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_004",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_004_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_005",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_005_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_006",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_006_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_007",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_007_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_008",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_008_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_009",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_009_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_010",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_010_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_011",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_011_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_012",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_012_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_013",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_013_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_014",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_014_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_015",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_015_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_101",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_101_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_102",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_102_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_103",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_103_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_104",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_104_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_105",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_105_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_106",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_106_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_107",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_107_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_108",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_108_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_109",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_109_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_110",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_110_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_111",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_111_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_11_112",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_11_112_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_001",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_001_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_002",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_002_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_003",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_003_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_004",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_004_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_005",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_005_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_006",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_006_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_007",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_007_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_008",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_008_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_009",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_009_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_010",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_010_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_011",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_011_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_012",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_012_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_013",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_013_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_014",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_014_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_015",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_015_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_016",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_016_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_017",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_017_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_101",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_101_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_102",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_102_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_103",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_103_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_104",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_104_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_105",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_105_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_106",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_106_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_107",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_107_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_108",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_108_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_109",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_109_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_110",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_110_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_111",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_111_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_112",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_112_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_113",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_113_start"
+      ]
+    },
+    {
+      "experiment_id": "phy_12_114",
+      "missing_fields": [],
+      "vague_observations": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlinked_steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlocated_sources": [
+        "physics_manual_11_12"
+      ],
+      "placeholder_images": [
+        "phy_12_114_start"
+      ]
+    }
+  ]
+}
