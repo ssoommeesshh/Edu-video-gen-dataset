@@ -1,0 +1,596 @@
+{
+  "review_policy": "Lenient candidate linking; no canonical records are modified and no candidate is treated as verified.",
+  "record_count": 10,
+  "reviews": [
+    {
+      "position": 1,
+      "experiment_id": "chem_8_001",
+      "title": "Testing Solubility of Common Substances",
+      "subject": "Chemistry",
+      "class_level": 8,
+      "difficulty": "easy",
+      "summary": "Compare how common solid substances dissolve in water and distinguish soluble from insoluble materials.",
+      "materials": [
+        "water",
+        "salt",
+        "sugar",
+        "sand",
+        "transparent cups",
+        "stirring rods"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Label one transparent cup for each test substance and add the same volume of water.",
+          "observation": "Each cup starts with a clear, equal-volume water sample."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Add an equal small amount of salt, sugar, or sand to its labeled cup.",
+          "observation": "The solid is visible in each cup before stirring."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Stir each cup for the same amount of time.",
+          "observation": "Salt and sugar disappear into the water, while sand remains visible and settles."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Classify each substance as soluble or insoluble in water.",
+          "observation": "The results can be compared in a simple observation table."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_textbooks_portal",
+          "source_type": "ncert_textbook",
+          "url": "https://ncert.nic.in/textbook.php",
+          "citation": "NCERT textbook portal; exact Class 8 chapter and page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 2,
+      "experiment_id": "chem_8_002",
+      "title": "Separating a Sand and Salt Mixture",
+      "subject": "Chemistry",
+      "class_level": 8,
+      "difficulty": "easy",
+      "summary": "Demonstrate filtration, evaporation, and recovery of components from a sand and salt mixture.",
+      "materials": [
+        "sand",
+        "salt",
+        "water",
+        "beaker",
+        "filter paper",
+        "funnel",
+        "evaporating dish"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Add water to the sand and salt mixture and stir thoroughly.",
+          "observation": "Salt dissolves while sand remains as solid particles."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Pour the mixture through folded filter paper in a funnel.",
+          "observation": "Sand remains on the filter paper and salt solution collects below."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Transfer the filtrate to an evaporating dish and warm it gently.",
+          "observation": "Water evaporates and solid salt crystals remain."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Compare the recovered sand and salt with the original mixture.",
+          "observation": "Both components are recovered by using different physical properties."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_textbooks_portal",
+          "source_type": "ncert_textbook",
+          "url": "https://ncert.nic.in/textbook.php",
+          "citation": "NCERT textbook portal; exact Class 8 chapter and page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 3,
+      "experiment_id": "chem_9_001",
+      "title": "Diffusion of an Ink Drop in Water",
+      "subject": "Chemistry",
+      "class_level": 9,
+      "difficulty": "easy",
+      "summary": "Observe diffusion and relate the spreading of particles to temperature and particle motion.",
+      "materials": [
+        "two transparent beakers",
+        "cold water",
+        "warm water",
+        "ink drop",
+        "dropper"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Fill one beaker with cold water and one with warm water.",
+          "observation": "The two beakers contain equal-looking water at different temperatures."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Place one drop of ink gently in the center of each beaker without stirring.",
+          "observation": "A dark ink region appears at the point of addition."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Observe both beakers for the same time interval.",
+          "observation": "Ink spreads through warm water faster than through cold water."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Record the relative diffusion rates and explain the observation using particle motion.",
+          "observation": "Higher temperature is associated with faster visible spreading."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_textbooks_portal",
+          "source_type": "ncert_textbook",
+          "url": "https://ncert.nic.in/textbook.php",
+          "citation": "NCERT textbook portal; Class 9 matter chapter page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 4,
+      "experiment_id": "chem_9_002",
+      "title": "Law of Conservation of Mass",
+      "subject": "Chemistry",
+      "class_level": 9,
+      "difficulty": "medium",
+      "summary": "Compare total mass before and after a chemical reaction in a closed system.",
+      "materials": [
+        "conical flask",
+        "balloon",
+        "baking soda",
+        "vinegar",
+        "balance"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Place baking soda in a balloon and vinegar in a flask without mixing them.",
+          "observation": "Reactants are separated while the complete apparatus can be weighed."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Attach the balloon to the flask and measure the mass of the closed arrangement.",
+          "observation": "The initial total mass is recorded."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Lift the balloon so the baking soda falls into the vinegar.",
+          "observation": "Fizzing occurs and the balloon inflates as gas forms."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Measure the mass again without opening the arrangement.",
+          "observation": "The total mass remains approximately unchanged in the closed system."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_textbooks_portal",
+          "source_type": "ncert_textbook",
+          "url": "https://ncert.nic.in/textbook.php",
+          "citation": "NCERT textbook portal; Class 9 atoms and molecules activity page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 5,
+      "experiment_id": "chem_10_001",
+      "title": "Testing Acids and Bases with Indicators",
+      "subject": "Chemistry",
+      "class_level": 10,
+      "difficulty": "easy",
+      "summary": "Classify household solutions as acidic, basic, or neutral using safe indicator color changes.",
+      "materials": [
+        "litmus paper",
+        "universal indicator",
+        "lemon juice",
+        "soap solution",
+        "water",
+        "droppers"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Label small wells or test tubes for each sample and add equal volumes.",
+          "observation": "The samples are arranged for side-by-side comparison."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Touch blue and red litmus paper to each sample using clean droppers.",
+          "observation": "Acidic and basic samples produce opposite litmus changes."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Add universal indicator to fresh portions of the samples.",
+          "observation": "Different colors indicate different approximate pH values."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Record each sample classification and indicator color.",
+          "observation": "The observation table links color changes to acidic, basic, or neutral behavior."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_textbooks_portal",
+          "source_type": "ncert_textbook",
+          "url": "https://ncert.nic.in/textbook.php",
+          "citation": "NCERT textbook portal; Class 10 acids, bases and salts activity page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 6,
+      "experiment_id": "chem_10_002",
+      "title": "Reaction of Iron Nails with Copper Sulphate",
+      "subject": "Chemistry",
+      "class_level": 10,
+      "difficulty": "easy",
+      "summary": "Observe a displacement reaction and connect visible changes to relative reactivity of metals.",
+      "materials": [
+        "clean iron nail",
+        "copper sulphate solution",
+        "test tube",
+        "sandpaper",
+        "holder"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Clean an iron nail with sandpaper and place it in a test tube of blue copper sulphate solution.",
+          "observation": "The nail is initially metallic gray and the solution is blue."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Leave the nail immersed without shaking for an observation period.",
+          "observation": "A reddish-brown coating begins forming on the nail."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Remove the nail and compare the solution color with a fresh sample.",
+          "observation": "The solution becomes less blue as iron displaces copper."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Write the word equation for the displacement reaction.",
+          "observation": "Iron and copper sulphate produce iron sulphate and copper."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_textbooks_portal",
+          "source_type": "ncert_textbook",
+          "url": "https://ncert.nic.in/textbook.php",
+          "citation": "NCERT textbook portal; Class 10 chemical reactions activity page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 7,
+      "experiment_id": "chem_11_001",
+      "title": "Preparation of a Standard Solution",
+      "subject": "Chemistry",
+      "class_level": 11,
+      "difficulty": "medium",
+      "summary": "Practice accurate weighing, dissolution, transfer, and dilution while preparing a solution of known concentration.",
+      "materials": [
+        "analytical balance",
+        "solute",
+        "beaker",
+        "glass rod",
+        "volumetric flask",
+        "funnel",
+        "wash bottle"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Calculate and weigh the required mass of a suitable soluble reagent.",
+          "observation": "The balance reading is recorded to the required precision."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Dissolve the reagent in a small volume of distilled water in a beaker.",
+          "observation": "The solid dissolves to form a clear or uniformly colored solution."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Transfer the solution quantitatively into a volumetric flask and rinse the beaker.",
+          "observation": "Rinse portions are added so the dissolved material is transferred completely."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Make the volume up to the calibration mark and mix by inversion.",
+          "observation": "A homogeneous standard solution with known concentration is obtained."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_lab_manuals",
+          "source_type": "ncert_lab_manual",
+          "url": "https://ncert.nic.in/",
+          "citation": "NCERT laboratory manual landing resources; exact Class 11 practical and page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 8,
+      "experiment_id": "chem_11_002",
+      "title": "Effect of Concentration on an Equilibrium",
+      "subject": "Chemistry",
+      "class_level": 11,
+      "difficulty": "medium",
+      "summary": "Observe a reversible color change and relate it qualitatively to a change in reactant concentration.",
+      "materials": [
+        "dilute cobalt chloride solution",
+        "hydrochloric acid solution",
+        "water",
+        "test tubes",
+        "dropper"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Place equal portions of the equilibrium mixture into labeled test tubes.",
+          "observation": "Each tube begins with a comparable color."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Add a measured amount of reagent to one tube and water to another comparison tube.",
+          "observation": "The tubes now have different concentrations of the reacting species."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Mix gently and compare the colors under the same lighting.",
+          "observation": "The equilibrium mixture shifts color after the concentration change."
+        },
+        {
+          "step_id": 4,
+          "instruction": "Record the direction of the visible shift and identify the applied change.",
+          "observation": "The color change provides qualitative evidence of equilibrium adjustment."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "ncert_textbooks_portal",
+          "source_type": "ncert_textbook",
+          "url": "https://ncert.nic.in/textbook.php",
+          "citation": "NCERT textbook portal; Class 11 equilibrium activity page to verify",
+          "verification_status": "needs_page_check"
+        }
+      ],
+      "candidate_section": {
+        "section_id": null,
+        "manual_filename": null,
+        "printed_start": null,
+        "printed_end": null,
+        "passage_ids": []
+      },
+      "evidence_previews": [],
+      "review_status": "no_local_manual_passage_candidate",
+      "recommended_action": "Find the exact official NCERT textbook/manual section and add page or passage evidence."
+    },
+    {
+      "position": 9,
+      "experiment_id": "chem_12_101",
+      "title": "Determine the boiling point of an organic compound",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "difficulty": "medium",
+      "summary": "Perform the Class 12 microscale chemistry experiment 'Determine the boiling point of an organic compound' and record its manual-defined observations and result.",
+      "materials": [
+        "sample, capillary tube, ignition tube, thermometer, beaker, burner, stand"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual.",
+          "observation": "Record the visible result and measurement described by the manual for this step."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Heat the sample gradually and observe the temperature while vapour escapes through the capillary.",
+          "observation": "Record the visible result and measurement described by the manual for this step."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Record the temperature at which continuous bubbling begins and compare it with the expected boiling point.",
+          "observation": "Record the visible result and measurement described by the manual for this step."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "manual_01_pdf",
+          "source_type": "reference",
+          "url": "Manual_01.pdf",
+          "citation": "Manual of Microscale Chemistry Laboratory Kit, Chapter Characterisation and Purification, Experiment 1.1; exact PDF pages to verify during citation pass",
+          "verification_status": "verified"
+        }
+      ],
+      "candidate_section": {
+        "section_id": "chem_12_101:manual_section",
+        "manual_filename": "Manual_01.pdf",
+        "printed_start": 17,
+        "printed_end": 18,
+        "passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      "evidence_previews": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "pdf_page": 28,
+          "printed_page": "17",
+          "text_preview": "chapter 1 characterIsatIon and purIfIcatIon of cheMIcal substances experIMent 1.1 To determine the boiling point of an organic compound. apparatus requIred Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp. cheMIcals requIred organic liquids, such as Benzene and Ethyl methyl ketone for boiling point (b.p.) determination. procedure 1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube "
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "pdf_page": 29,
+          "printed_page": "18",
+          "text_preview": "18 Manual of Microscale cheMistry laboratory Kit 4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water. 6. Heat the beaker gently. 7. Note the temperature as soon "
+        }
+      ],
+      "review_status": "candidate_manual_link_needs_human_confirmation",
+      "recommended_action": "Confirm title, page boundaries, procedure, quantities, and safety details against the manual."
+    },
+    {
+      "position": 10,
+      "experiment_id": "chem_12_102",
+      "title": "Determine the melting point of an organic compound",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "difficulty": "medium",
+      "summary": "Perform the Class 12 microscale chemistry experiment 'Determine the melting point of an organic compound' and record its manual-defined observations and result.",
+      "materials": [
+        "organic sample, capillary tube, thermometer, beaker, heating bath, stand"
+      ],
+      "procedure_summary": [
+        {
+          "step_id": 1,
+          "instruction": "Pack a small quantity of the organic sample into a sealed capillary tube.",
+          "observation": "Record the visible result and measurement described by the manual for this step."
+        },
+        {
+          "step_id": 2,
+          "instruction": "Attach the capillary beside the thermometer and heat the bath gradually.",
+          "observation": "Record the visible result and measurement described by the manual for this step."
+        },
+        {
+          "step_id": 3,
+          "instruction": "Record the temperature range from the first sign of melting until the sample becomes completely liquid.",
+          "observation": "Record the visible result and measurement described by the manual for this step."
+        }
+      ],
+      "existing_sources": [
+        {
+          "source_id": "manual_01_pdf",
+          "source_type": "reference",
+          "url": "Manual_01.pdf",
+          "citation": "Manual of Microscale Chemistry Laboratory Kit, Chapter Characterisation and Purification, Experiment 1.2; exact PDF pages to verify during citation pass",
+          "verification_status": "verified"
+        }
+      ],
+      "candidate_section": {
+        "section_id": "chem_12_102:manual_section",
+        "manual_filename": "Manual_01.pdf",
+        "printed_start": 19,
+        "printed_end": 20,
+        "passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0030",
+          "Manual_01:fc4dcbac1a60:p0031"
+        ]
+      },
+      "evidence_previews": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0030",
+          "pdf_page": 30,
+          "printed_page": "19",
+          "text_preview": "CharaCterisation and PurifiCation of ChemiCal substanCes 19 experIMent 1.2 To determine the melting point of an organic compound. apparatus requIred Beaker (50 mL), capillary tube, thermometer, iron stand (with clamp), tripod stand and burner/spirit lamp. cheMIcals requIred organic compounds, such as Naphthalene, Benzoic acid, etc. procedure 1. Take a capillary tube and seal its one end by heating it in the flame. 2. Take the given organic compound, say Naphthalene, on a tile and grind it into a"
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0031",
+          "pdf_page": 31,
+          "printed_page": "20",
+          "text_preview": "20 Manual of Microscale cheMistry laboratory Kit 5. clamp the thermometer with the capillary tube in the water taken in the beaker in a way that the bulb of the thermometer and the portion of the capillary tube, containing the organic compound, are dipped in the water. Heat the beaker gently. 6. Note the temperature as soon as the substance begins to melt. result Melting point of the compound is .........°c. [Literature value, melting point (m.p.) of Benzoic acid = 121°c, m.p. of Naphthalene = 8"
+        }
+      ],
+      "review_status": "candidate_manual_link_needs_human_confirmation",
+      "recommended_action": "Confirm title, page boundaries, procedure, quantities, and safety details against the manual."
+    }
+  ]
+}

@@ -53,6 +53,15 @@ def main() -> None:
                     "difficulty": record["difficulty"],
                     "tags": record.get("tags", []),
                     "source_ids": [source["source_id"] for source in record["sources"]],
+                    "source_verification": record.get("evidence", {}).get("source_verification", "unverified"),
+                    "retrieval_eligibility": record.get("evidence", {}).get("retrieval_eligibility", "review_required"),
+                    "video_readiness": record.get("evidence", {}).get("video_readiness", "review_required"),
+                    "section_ids": record.get("evidence", {}).get("section_ids", []),
+                    "citations": [
+                        {"source_id": source["source_id"], "passage_ids": source.get("passage_ids", []),
+                         "verification_status": source.get("verification_status")}
+                        for source in record["sources"]
+                    ],
                 },
             }
             handle.write(json.dumps(document, ensure_ascii=False) + "\n")
@@ -64,6 +73,7 @@ def main() -> None:
                 "input": record_to_text(record),
                 "scene_count": len(record["scenes"]),
                 "image_assets": record["image_assets"],
+                "evidence_status": record.get("evidence", {}),
             }
             handle.write(json.dumps(prompt_input, ensure_ascii=False) + "\n")
 

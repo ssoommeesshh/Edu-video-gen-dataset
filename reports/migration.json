@@ -1,0 +1,7 @@
+{
+  "input_sha256": "5d7f224bfa3d3b7e860a3b29b9a4cd8cad139f4e6297f07739e6b6aa5e4fffc1",
+  "input_version": "0.3.0",
+  "output_version": "0.4.0",
+  "ids_preserved": true,
+  "policy": "Preserve all legacy prose and IDs. Preserve old source statuses in evidence. No claim is automatically verified. Single-scene links are proposals; multi-scene mappings remain unresolved."
+}

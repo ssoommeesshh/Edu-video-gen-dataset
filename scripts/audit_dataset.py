@@ -21,6 +21,7 @@ def audit(path):
             'vague_observations': [s['step_id'] for s in r.get('procedure_steps', [])
                 if re.search(r'\b(record|noted|ready|observe|tabul|expected|can be|obtained|changes)\w*', s.get('observation', ''), re.I)],
             'unlinked_steps': [s['step_id'] for s in r.get('procedure_steps', []) if not s.get('scene_ids')],
+            'unreviewed_scene_links': [s['step_id'] for s in r.get('procedure_steps', []) if s.get('scene_link_status') != 'verified'],
             'unlocated_sources': [s['source_id'] for s in r.get('sources', []) if not s.get('passage_ids')],
             'placeholder_images': [s['image_asset_id'] for s in r.get('image_assets', []) if s.get('license_status') == 'placeholder'],
         })

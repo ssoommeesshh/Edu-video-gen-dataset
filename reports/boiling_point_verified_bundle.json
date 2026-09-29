@@ -1,0 +1,79 @@
+{
+  "query": "boiling point organic compound",
+  "status": "explicit_selection",
+  "message": "Using explicitly selected experiment chem_12_101.",
+  "top_k": 3,
+  "retrieved_experiments": [
+    {
+      "experiment_id": "chem_12_101",
+      "retrieval_score": null,
+      "title": "Determine the boiling point of an organic compound",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "difficulty": "medium",
+      "educational_goal": "Perform the Class 12 microscale chemistry experiment 'Determine the boiling point of an organic compound' and record its manual-defined observations and result.",
+      "status": "source_review",
+      "source_ids": [
+        "manual_01_pdf"
+      ],
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "scenes": [
+        {
+          "scene_id": "chem_12_101_scene",
+          "scene_name": "Manual setup and procedure",
+          "description": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf."
+        }
+      ]
+    }
+  ],
+  "prompt_inputs": [
+    {
+      "experiment_id": "chem_12_101",
+      "scene_id": "chem_12_101_scene",
+      "step_id": 1,
+      "prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+      "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
+      "starting_image": "PLACEHOLDER: add a license-reviewed real laboratory setup image",
+      "source_ids": [
+        "manual_01_pdf"
+      ],
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_101",
+      "scene_id": "chem_12_101_scene",
+      "step_id": 2,
+      "prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Heat the sample gradually and observe the temperature while vapour escapes through the capillary. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+      "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
+      "starting_image": "PLACEHOLDER: add a license-reviewed real laboratory setup image",
+      "source_ids": [
+        "manual_01_pdf"
+      ],
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ]
+    },
+    {
+      "experiment_id": "chem_12_101",
+      "scene_id": "chem_12_101_scene",
+      "step_id": 3,
+      "prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Record the temperature at which continuous bubbling begins and compare it with the expected boiling point. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+      "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
+      "starting_image": "PLACEHOLDER: add a license-reviewed real laboratory setup image",
+      "source_ids": [
+        "manual_01_pdf"
+      ],
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ]
+    }
+  ]
+}

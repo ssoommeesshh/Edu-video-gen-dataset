@@ -1,0 +1,94 @@
+{
+  "contract_version": "1.0",
+  "status": "ready",
+  "experiment_id": "chem_12_101",
+  "title": "Determine the boiling point of an organic compound",
+  "subject": "Chemistry",
+  "dataset_revision": {
+    "git_commit": null,
+    "content_hashes": {
+      "data/chemistry_experiments.json": "eb50268fb7f946ccc960ac02e49a7d5c0b32890a90abd95164e51bd1fc0d0ca7",
+      "evidence/evidence_graph.json": "c853cd7d433a3e8f43eb87a408c7fc7525d9765045862e9873b1b840df8dbaac"
+    }
+  },
+  "source_references": [
+    {
+      "source_id": "manual_01_pdf",
+      "source_type": "reference",
+      "url": "Manual_01.pdf",
+      "citation": "Manual of Microscale Chemistry Laboratory Kit, Experiment 1.1, printed pages 17-18 (PDF pages 28-29).",
+      "verification_status": "verified",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ]
+    }
+  ],
+  "review_status": "evidence_gate_passed",
+  "visual_review_status": "not_reviewed",
+  "clips": [
+    {
+      "clip_id": "chem_12_101_scene_step_1",
+      "scene_id": "chem_12_101_scene",
+      "step_ids": [
+        1
+      ],
+      "new_scene": true,
+      "image_prompt": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+      "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+      "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
+      "stop_condition": "Record the visible result and measurement described by the manual for this step.",
+      "duration_seconds": 1.0,
+      "duration_status": "provisional_cpu_test",
+      "starting_image": null,
+      "source_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "evidence_gate_passed",
+      "visual_review_status": "not_reviewed"
+    },
+    {
+      "clip_id": "chem_12_101_scene_step_2",
+      "scene_id": "chem_12_101_scene",
+      "step_ids": [
+        2
+      ],
+      "new_scene": false,
+      "image_prompt": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+      "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Heat the sample gradually and observe the temperature while vapour escapes through the capillary. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+      "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
+      "stop_condition": "Record the visible result and measurement described by the manual for this step.",
+      "duration_seconds": 1.0,
+      "duration_status": "provisional_cpu_test",
+      "starting_image": null,
+      "source_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "evidence_gate_passed",
+      "visual_review_status": "not_reviewed"
+    },
+    {
+      "clip_id": "chem_12_101_scene_step_3",
+      "scene_id": "chem_12_101_scene",
+      "step_ids": [
+        3
+      ],
+      "new_scene": false,
+      "image_prompt": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+      "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Record the temperature at which continuous bubbling begins and compare it with the expected boiling point. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+      "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
+      "stop_condition": "Record the visible result and measurement described by the manual for this step.",
+      "duration_seconds": 1.0,
+      "duration_status": "provisional_cpu_test",
+      "starting_image": null,
+      "source_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "evidence_gate_passed",
+      "visual_review_status": "not_reviewed"
+    }
+  ]
+}

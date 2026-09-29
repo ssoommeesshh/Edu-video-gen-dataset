@@ -1,0 +1,5 @@
+# Keep generated JSON portable between Windows and Linux.
+*.json text eol=lf
+*.jsonl text eol=lf
+*.pkl binary
+*.npz binary

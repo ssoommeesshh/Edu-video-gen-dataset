@@ -1,0 +1,422 @@
+{
+  "benchmark": "data\\retrieval_benchmark.json",
+  "min_score": 0.1,
+  "min_margin": 0.0,
+  "summary": {
+    "case_count": 15,
+    "category_counts": {
+      "paraphrase": 3,
+      "near_match": 2,
+      "ambiguous": 1,
+      "missing": 2,
+      "out_of_scope": 1,
+      "nonsense": 1,
+      "title": 4,
+      "filter": 1
+    },
+    "supported_count": 9,
+    "rejection_count": 6,
+    "supported_top1_accuracy": 1.0,
+    "supported_recall_at_5": 1.0,
+    "rejection_abstention_rate": 0.6667,
+    "overall_pass_rate": 0.8667,
+    "by_category": {
+      "ambiguous": {
+        "count": 1,
+        "pass_rate": 0.0,
+        "top1_accuracy": 0.0,
+        "abstention_rate": 0.0
+      },
+      "filter": {
+        "count": 1,
+        "pass_rate": 1.0,
+        "top1_accuracy": 0.0,
+        "abstention_rate": 1.0
+      },
+      "missing": {
+        "count": 2,
+        "pass_rate": 0.5,
+        "top1_accuracy": 0.0,
+        "abstention_rate": 0.5
+      },
+      "near_match": {
+        "count": 2,
+        "pass_rate": 1.0,
+        "top1_accuracy": 1.0,
+        "abstention_rate": 0.0
+      },
+      "nonsense": {
+        "count": 1,
+        "pass_rate": 1.0,
+        "top1_accuracy": 0.0,
+        "abstention_rate": 1.0
+      },
+      "out_of_scope": {
+        "count": 1,
+        "pass_rate": 1.0,
+        "top1_accuracy": 0.0,
+        "abstention_rate": 1.0
+      },
+      "paraphrase": {
+        "count": 3,
+        "pass_rate": 1.0,
+        "top1_accuracy": 1.0,
+        "abstention_rate": 0.0
+      },
+      "title": {
+        "count": 4,
+        "pass_rate": 1.0,
+        "top1_accuracy": 1.0,
+        "abstention_rate": 0.0
+      }
+    },
+    "by_split": {
+      "holdout": {
+        "count": 15,
+        "pass_rate": 0.8667,
+        "top1_accuracy": 0.6,
+        "recall_at_5": 0.6
+      }
+    }
+  },
+  "rows": [
+    {
+      "case_id": "q002",
+      "query": "diffusion of ink in water",
+      "category": "paraphrase",
+      "split": "holdout",
+      "expected_id": "chem_9_001",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "chem_9_001",
+      "result_ids": [
+        "chem_9_001",
+        "chem_11_001",
+        "chem_12_201",
+        "chem_12_203",
+        "chem_12_1001"
+      ],
+      "top_score": 0.4614836695458387,
+      "score_margin": 0.40067306511818224,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q004",
+      "query": "oxalic acid sodium hydroxide titration",
+      "category": "near_match",
+      "split": "holdout",
+      "expected_id": "chem_12_202",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "chem_12_202",
+      "result_ids": [
+        "chem_12_202",
+        "chem_12_1002",
+        "chem_12_201",
+        "chem_12_205",
+        "chem_12_901"
+      ],
+      "top_score": 0.4457787334478166,
+      "score_margin": 0.08198322838279021,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q006",
+      "query": "resistance using a metre bridge",
+      "category": "near_match",
+      "split": "holdout",
+      "expected_id": "phy_12_002",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "phy_12_002",
+      "result_ids": [
+        "phy_12_002",
+        "phy_12_001",
+        "phy_12_104",
+        "phy_12_003",
+        "phy_12_007"
+      ],
+      "top_score": 0.38454704463732253,
+      "score_margin": 0.08328498366873899,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q008",
+      "query": "focal length",
+      "category": "ambiguous",
+      "split": "holdout",
+      "expected_id": null,
+      "expected_outcome": "ambiguous",
+      "filters": {},
+      "top1_id": "phy_12_114",
+      "result_ids": [
+        "phy_12_114",
+        "phy_12_012",
+        "phy_12_010",
+        "phy_12_011",
+        "phy_12_009"
+      ],
+      "top_score": 0.41577194052998073,
+      "score_margin": 0.036551595789176106,
+      "top1_correct": false,
+      "recall_at_5": false,
+      "should_abstain": true,
+      "abstained": false,
+      "passed": false
+    },
+    {
+      "case_id": "q010",
+      "query": "electrolysis of water",
+      "category": "missing",
+      "split": "holdout",
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "filters": {},
+      "top1_id": "chem_9_001",
+      "result_ids": [
+        "chem_9_001",
+        "chem_8_001",
+        "phy_11_105",
+        "phy_11_111",
+        "phy_12_014"
+      ],
+      "top_score": 0.2217530713453852,
+      "score_margin": 0.05694572359160366,
+      "top1_correct": false,
+      "recall_at_5": false,
+      "should_abstain": true,
+      "abstained": false,
+      "passed": false
+    },
+    {
+      "case_id": "q012",
+      "query": "magnetic field of a solenoid",
+      "category": "missing",
+      "split": "holdout",
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "filters": {},
+      "top1_id": null,
+      "result_ids": [],
+      "top_score": 0.0,
+      "score_margin": 0.0,
+      "top1_correct": false,
+      "recall_at_5": false,
+      "should_abstain": true,
+      "abstained": true,
+      "passed": true
+    },
+    {
+      "case_id": "q014",
+      "query": "write a poem about friendship",
+      "category": "out_of_scope",
+      "split": "holdout",
+      "expected_id": null,
+      "expected_outcome": "out_of_scope",
+      "filters": {},
+      "top1_id": null,
+      "result_ids": [],
+      "top_score": 0.0,
+      "score_margin": 0.0,
+      "top1_correct": false,
+      "recall_at_5": false,
+      "should_abstain": true,
+      "abstained": true,
+      "passed": true
+    },
+    {
+      "case_id": "q016",
+      "query": "",
+      "category": "nonsense",
+      "split": "holdout",
+      "expected_id": null,
+      "expected_outcome": "out_of_scope",
+      "filters": {},
+      "top1_id": null,
+      "result_ids": [],
+      "top_score": 0.0,
+      "score_margin": 0.0,
+      "top1_correct": false,
+      "recall_at_5": false,
+      "should_abstain": true,
+      "abstained": true,
+      "passed": true
+    },
+    {
+      "case_id": "q018",
+      "query": "Determine the strength of sodium hydroxide using standard oxalic acid",
+      "category": "title",
+      "split": "holdout",
+      "expected_id": "chem_12_202",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "chem_12_202",
+      "result_ids": [
+        "chem_12_202",
+        "chem_12_204",
+        "chem_12_201",
+        "chem_12_205",
+        "chem_12_1002"
+      ],
+      "top_score": 0.8178788741717947,
+      "score_margin": 0.48802028299358524,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q020",
+      "query": "Prepare acetanilide",
+      "category": "title",
+      "split": "holdout",
+      "expected_id": "chem_12_603",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "chem_12_603",
+      "result_ids": [
+        "chem_12_603",
+        "chem_12_605",
+        "chem_12_801",
+        "chem_12_604",
+        "chem_12_607"
+      ],
+      "top_score": 0.4712959334118032,
+      "score_margin": 0.32757382259733475,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q022",
+      "query": "Draw forward and reverse I-V characteristics of a p-n junction",
+      "category": "title",
+      "split": "holdout",
+      "expected_id": "phy_12_015",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "phy_12_015",
+      "result_ids": [
+        "phy_12_015",
+        "phy_12_016",
+        "phy_12_017",
+        "phy_12_102",
+        "chem_12_904"
+      ],
+      "top_score": 0.8679067228296359,
+      "score_margin": 0.7470471181909945,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q024",
+      "query": "Study volume versus pressure for air at constant temperature",
+      "category": "title",
+      "split": "holdout",
+      "expected_id": "phy_11_010",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "phy_11_010",
+      "result_ids": [
+        "phy_11_010",
+        "phy_11_012",
+        "phy_11_105",
+        "phy_11_014",
+        "phy_12_106"
+      ],
+      "top_score": 0.8844513662108213,
+      "score_margin": 0.7867062311584694,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q026",
+      "query": "find speed of sound with resonance tube",
+      "category": "paraphrase",
+      "split": "holdout",
+      "expected_id": "phy_11_014",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "phy_11_014",
+      "result_ids": [
+        "phy_11_014",
+        "chem_12_101",
+        "chem_11_002",
+        "chem_10_002",
+        "chem_12_102"
+      ],
+      "top_score": 0.6331252771066361,
+      "score_margin": 0.5988680228578767,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q028",
+      "query": "strength of hydrochloric acid sodium carbonate",
+      "category": "paraphrase",
+      "split": "holdout",
+      "expected_id": "chem_12_204",
+      "expected_outcome": "supported",
+      "filters": {},
+      "top1_id": "chem_12_204",
+      "result_ids": [
+        "chem_12_204",
+        "chem_12_1002",
+        "chem_12_203",
+        "chem_12_902",
+        "chem_12_901"
+      ],
+      "top_score": 0.6182445445108045,
+      "score_margin": 0.31615632475145433,
+      "top1_correct": true,
+      "recall_at_5": true,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true
+    },
+    {
+      "case_id": "q029",
+      "query": "ohm law",
+      "category": "filter",
+      "split": "holdout",
+      "expected_id": null,
+      "expected_outcome": "not_in_catalog",
+      "filters": {
+        "subject": "Chemistry"
+      },
+      "top1_id": null,
+      "result_ids": [],
+      "top_score": 0.0,
+      "score_margin": 0.0,
+      "top1_correct": false,
+      "recall_at_5": false,
+      "should_abstain": true,
+      "abstained": true,
+      "passed": true
+    }
+  ]
+}

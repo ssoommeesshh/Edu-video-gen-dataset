@@ -33,8 +33,7 @@ def main():
     sections = []
     for eid, filename, start, end, heading in specs:
         selected = [p for p in pages if p['manual_filename']==filename and p['printed_page'] is not None
-            and start<=int(p['printed_page'])<=end and '.indd' in p['text']
-            and 'Prelims' not in p['text'] and 'Cover' not in p['text']]
+            and start<=int(p['printed_page'])<=end and 'Prelims' not in p['text'] and 'Cover' not in p['text']]
         section_id = eid+':manual_section'
         for p in selected:
             p['section_id'], p['section_heading'] = section_id, heading

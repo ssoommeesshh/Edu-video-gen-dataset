@@ -1,0 +1,250 @@
+{
+  "query": "Diffusion of an ink drop in water",
+  "retrieval_status": "confident_match",
+  "retrieval_message": "I found a confident match in the NCERT experiment catalog.",
+  "matches": [
+    {
+      "experiment_id": "chem_9_001",
+      "title": "Diffusion of an Ink Drop in Water",
+      "subject": "Chemistry",
+      "class_level": 9,
+      "retrieval_score": 0.5422859739820418,
+      "source_verification": "no_link_in_supplied_pdfs",
+      "retrieval_eligibility": "review_required",
+      "video_readiness": "review_required",
+      "source_status": "no_link_in_supplied_pdfs",
+      "sections": [],
+      "source_passages": [],
+      "claims": [
+        {
+          "claim_id": "chem_9_001:c001",
+          "kind": "action",
+          "text": "Fill one beaker with cold water and one with warm water.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c002",
+          "kind": "observation",
+          "text": "The two beakers contain equal-looking water at different temperatures.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c003",
+          "kind": "action",
+          "text": "Place one drop of ink gently in the center of each beaker without stirring.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c004",
+          "kind": "observation",
+          "text": "A dark ink region appears at the point of addition.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c005",
+          "kind": "action",
+          "text": "Observe both beakers for the same time interval.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c006",
+          "kind": "observation",
+          "text": "Ink spreads through warm water faster than through cold water.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c007",
+          "kind": "action",
+          "text": "Record the relative diffusion rates and explain the observation using particle motion.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c008",
+          "kind": "observation",
+          "text": "Higher temperature is associated with faster visible spreading.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c009",
+          "kind": "material",
+          "text": "two transparent beakers",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c010",
+          "kind": "material",
+          "text": "cold water",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c011",
+          "kind": "material",
+          "text": "warm water",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c012",
+          "kind": "material",
+          "text": "ink drop",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c013",
+          "kind": "material",
+          "text": "dropper",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c014",
+          "kind": "safety",
+          "text": "Use warm water that is safe to handle, not boiling water.",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c015",
+          "kind": "safety",
+          "text": "Keep liquids away from electrical equipment.",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c016",
+          "kind": "scene",
+          "text": "Two identical beakers, one marked warm and one cold, show ink diffusing through water without stirring.",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c017",
+          "kind": "action",
+          "text": "add ink drop",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_9_001:c018",
+          "kind": "action",
+          "text": "observe spreading",
+          "scene_ids": [
+            "diffusion"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        }
+      ],
+      "confidence_status": "no_link_in_supplied_pdfs"
+    }
+  ],
+  "nearby_experiments": [
+    {
+      "experiment_id": "chem_9_002",
+      "title": "Law of Conservation of Mass",
+      "subject": "Chemistry",
+      "class_level": 9,
+      "score": 0.023478262313671273,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_11_001",
+      "title": "Preparation of a Standard Solution",
+      "subject": "Chemistry",
+      "class_level": 11,
+      "score": 0.05239488547767658,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_12_201",
+      "title": "Prepare a standard solution of 0.1 M oxalic acid",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.040076140859533135,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_12_203",
+      "title": "Prepare a standard solution of 0.05 M sodium carbonate",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.032930927558815305,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_12_1001",
+      "title": "Determine enthalpy of solution of potassium nitrate",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.03245804773153624,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    }
+  ],
+  "prompt_eligible_experiment_ids": []
+}

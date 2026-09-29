@@ -12,9 +12,14 @@ def migrate(payload, sections):
     result = copy.deepcopy(payload)
     lookup = {s['experiment_id']:s for s in sections}
     for r in result['experiments']:
-        if 'evidence' in r:
-            continue
         section = lookup.get(r['experiment_id'])
+        if 'evidence' in r:
+            r['evidence']['section_ids'] = [section['section_id']] if section else []
+            if section and r['evidence'].get('source_verification') == 'no_link_in_supplied_pdfs':
+                r['evidence']['source_verification'] = 'unverified'
+            if not section and r['evidence'].get('source_verification') == 'unverified':
+                r['evidence']['source_verification'] = 'no_link_in_supplied_pdfs'
+            continue
         scene_ids = [s['scene_id'] for s in r['scenes']]
         claims = []
         def claim(path, text, kind):
@@ -38,7 +43,7 @@ def migrate(payload, sections):
             if re.search(r'\d',c['text']):
                 claim(c['field_path'],c['text'],'quantity')
         r['evidence'] = {'section_ids':[section['section_id']] if section else [],
-            'source_verification':'unverified', 'retrieval_eligibility':'review_required',
+            'source_verification':'unverified' if section else 'no_link_in_supplied_pdfs', 'retrieval_eligibility':'review_required',
             'video_readiness':'review_required', 'claims':claims,
             'legacy_source_statuses':[{'source_id':s['source_id'],'verification_status':s['verification_status']} for s in r['sources']]}
         for source in r['sources']:

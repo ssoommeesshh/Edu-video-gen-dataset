@@ -42,11 +42,38 @@ def expand_query(query: str) -> str:
     return expanded
 
 
-def rank_documents(query: str, vectorizer, matrix, documents, top_n: int = 5):
+def rank_documents(
+    query: str,
+    vectorizer,
+    matrix,
+    documents,
+    top_n: int = 5,
+    subject: str | None = None,
+    class_level: int | str | None = None,
+    min_score: float = 0.0,
+    min_margin: float = 0.0,
+):
     search_query = expand_query(query)
     qv = vectorizer.transform([search_query])
     scores = cosine_similarity(qv, matrix).flatten()
-    idxs = scores.argsort()[-top_n:][::-1]
+    eligible = []
+    for index, document in enumerate(documents):
+        metadata = document["metadata"]
+        if subject is not None and str(metadata.get("subject", "")).casefold() != str(subject).casefold():
+            continue
+        if class_level is not None and str(metadata.get("class_level", "")) != str(class_level):
+            continue
+        eligible.append(index)
+
+    ranked_indexes = sorted(eligible, key=lambda index: scores[index], reverse=True)
+    if not ranked_indexes:
+        return []
+    if scores[ranked_indexes[0]] < min_score:
+        return []
+    if len(ranked_indexes) > 1 and scores[ranked_indexes[0]] - scores[ranked_indexes[1]] < min_margin:
+        return []
+
+    idxs = ranked_indexes[:top_n]
     ranked = []
     for idx in idxs:
         doc = documents[int(idx)]
@@ -57,8 +84,67 @@ def rank_documents(query: str, vectorizer, matrix, documents, top_n: int = 5):
             "title": meta.get("title"),
             "subject": meta.get("subject"),
             "class_level": meta.get("class_level"),
+            "difficulty": meta.get("difficulty"),
+            "source_verification": meta.get("source_verification", "unverified"),
+            "retrieval_eligibility": meta.get("retrieval_eligibility", "review_required"),
+            "video_readiness": meta.get("video_readiness", "review_required"),
+            "citations": meta.get("citations", []),
         })
     return ranked
+
+
+def retrieve_with_status(
+    query: str,
+    vectorizer,
+    matrix,
+    documents,
+    top_n: int = 5,
+    subject: str | None = None,
+    class_level: int | str | None = None,
+    confident_score: float = 0.30,
+    confident_margin: float = 0.05,
+):
+    """Return a confident match or safe in-catalog alternatives.
+
+    Retrieval never claims a weak result is the requested experiment. Borderline
+    results require the user to select an in-scope option explicitly.
+    """
+    candidates = rank_documents(
+        query,
+        vectorizer,
+        matrix,
+        documents,
+        top_n=top_n,
+        subject=subject,
+        class_level=class_level,
+    )
+    if not candidates or candidates[0]["score"] < confident_score:
+        return {
+            "status": "out_of_scope",
+            "message": (
+                "I could not find a strong match in the NCERT experiment catalog. "
+                "This may be outside the supported domain. Here are the closest "
+                "in-catalog options, if any; please choose one to continue."
+            ),
+            "results": candidates,
+        }
+
+    margin = candidates[0]["score"] - candidates[1]["score"] if len(candidates) > 1 else candidates[0]["score"]
+    if margin < confident_margin:
+        return {
+            "status": "selection_required",
+            "message": (
+                "I found several nearby NCERT experiments but not one unambiguous "
+                "match. Please choose one of these in-catalog options to continue."
+            ),
+            "results": candidates,
+        }
+
+    return {
+        "status": "confident_match",
+        "message": "I found a confident match in the NCERT experiment catalog.",
+        "results": candidates,
+    }
 
 
 def main() -> None:
@@ -79,21 +165,15 @@ def main() -> None:
             print("Exiting RAG search.")
             break
 
-        search_query = expand_query(query)
-        query_vec = vectorizer.transform([search_query])
-        scores = cosine_similarity(query_vec, matrix).flatten()
-        top_idx = scores.argsort()[-5:][::-1]
-
-        print(f"\nTop results for: {query}\n")
-        for idx in top_idx:
-            doc = documents[int(idx)]
-            meta = doc["metadata"]
-            print(f"Score: {float(scores[idx]):.4f}")
-            print(f"ID: {doc['id']}")
-            print(f"Title: {meta.get('title')}")
-            print(f"Subject: {meta.get('subject')}")
-            print(f"Class: {meta.get('class_level')}")
-            print(f"Difficulty: {meta.get('difficulty')}")
+        response = retrieve_with_status(query, vectorizer, matrix, documents)
+        print(f"\nStatus: {response['status']}")
+        print(response["message"])
+        for item in response["results"]:
+            print(f"Score: {item['score']:.4f}")
+            print(f"ID: {item['id']}")
+            print(f"Title: {item['title']}")
+            print(f"Subject: {item['subject']}")
+            print(f"Class: {item['class_level']}")
             print("-" * 60)
 
 

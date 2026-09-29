@@ -5,7 +5,11 @@ import pickle
 from pathlib import Path
 
 from scipy import sparse
-from sklearn.metrics.pairwise import cosine_similarity
+
+try:
+    from .query_rag import rank_documents, retrieve_with_status
+except ImportError:
+    from query_rag import rank_documents, retrieve_with_status
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX_PATH = ROOT / "rag_index_matrix.npz"
@@ -50,24 +54,7 @@ def load_data() -> tuple[pickle.Pickler, object, list[dict]]:
 
 
 def search(query: str, vectorizer, matrix, documents, top_n: int = 5):
-    query_text = expand_query(query)
-    qv = vectorizer.transform([query_text])
-    scores = cosine_similarity(qv, matrix).flatten()
-    top_idx = scores.argsort()[-top_n:][::-1]
-
-    results = []
-    for idx in top_idx:
-        doc = documents[int(idx)]
-        meta = doc["metadata"]
-        results.append({
-            "score": round(float(scores[idx]), 4),
-            "id": doc["id"],
-            "title": meta.get("title"),
-            "subject": meta.get("subject"),
-            "class_level": meta.get("class_level"),
-            "difficulty": meta.get("difficulty"),
-        })
-    return results
+    return rank_documents(query, vectorizer, matrix, documents, top_n=top_n)
 
 
 def main() -> None:
@@ -84,14 +71,18 @@ def main() -> None:
             print("Goodbye.")
             break
 
-        results = search(query, vectorizer, matrix, documents)
-        print(f"\nTop results for: {query}\n")
+        response = retrieve_with_status(query, vectorizer, matrix, documents)
+        print(f"\nStatus: {response['status']}")
+        print(response["message"])
+        results = response["results"]
         if not results:
-            print("No results found.")
             continue
 
         for item in results:
-            print(f"{item['score']:.4f} | {item['id']} | {item['title']} | {item['subject']} | class {item['class_level']} | {item['difficulty']}")
+            print(f"{item['score']:.4f} | {item['id']} | {item['title']} | {item['subject']} | class {item['class_level']} | {item['difficulty']} | source: {item['source_verification']} | video: {item['video_readiness']}")
+            for citation in item.get("citations", []):
+                if citation.get("passage_ids"):
+                    print(f"  {citation['source_id']}: {', '.join(citation['passage_ids'])}")
         print()
 
 

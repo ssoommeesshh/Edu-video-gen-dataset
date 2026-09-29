@@ -1,0 +1,181 @@
+{
+  "query": "Determine the boiling point of an organic compound",
+  "status": "review_required",
+  "message": "Required claims or step-to-scene links lack verified evidence; no prompts were generated.",
+  "retrieved_experiments": [
+    {
+      "experiment_id": "chem_12_101",
+      "title": "Determine the boiling point of an organic compound"
+    }
+  ],
+  "prompt_inputs": [],
+  "review_report": {
+    "status": "review_required",
+    "missing_claims": [
+      {
+        "claim_id": "chem_12_101:c001",
+        "claim": "Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c002",
+        "claim": "Record the visible result and measurement described by the manual for this step.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c003",
+        "claim": "Heat the sample gradually and observe the temperature while vapour escapes through the capillary.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c004",
+        "claim": "Record the visible result and measurement described by the manual for this step.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c005",
+        "claim": "Record the temperature at which continuous bubbling begins and compare it with the expected boiling point.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c006",
+        "claim": "Record the visible result and measurement described by the manual for this step.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c007",
+        "claim": "sample, capillary tube, ignition tube, thermometer, beaker, burner, stand",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c008",
+        "claim": "Follow the supplied manual and teacher supervision for quantities, heating, acids, bases, organic solvents, and waste disposal.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c009",
+        "claim": "Wear eye protection and do not taste or directly handle chemicals.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c010",
+        "claim": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c011",
+        "claim": "arrange apparatus",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c012",
+        "claim": "perform manual procedure",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "claim_id": "chem_12_101:c013",
+        "claim": "record observation",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_12_101:c014",
+        "claim": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+        "candidate_passage_ids": [
+          "Manual_01:fc4dcbac1a60:p0028",
+          "Manual_01:fc4dcbac1a60:p0029"
+        ]
+      },
+      {
+        "step_id": 1,
+        "claim": "step-to-scene relationship",
+        "candidate_scene_ids": [
+          "chem_12_101_scene"
+        ]
+      },
+      {
+        "step_id": 2,
+        "claim": "step-to-scene relationship",
+        "candidate_scene_ids": [
+          "chem_12_101_scene"
+        ]
+      },
+      {
+        "step_id": 3,
+        "claim": "step-to-scene relationship",
+        "candidate_scene_ids": [
+          "chem_12_101_scene"
+        ]
+      }
+    ],
+    "citations": [],
+    "claim_citations": {
+      "chem_12_101:c001": [],
+      "chem_12_101:c002": [],
+      "chem_12_101:c003": [],
+      "chem_12_101:c004": [],
+      "chem_12_101:c005": [],
+      "chem_12_101:c006": [],
+      "chem_12_101:c007": [],
+      "chem_12_101:c008": [],
+      "chem_12_101:c009": [],
+      "chem_12_101:c010": [],
+      "chem_12_101:c011": [],
+      "chem_12_101:c012": [],
+      "chem_12_101:c013": [],
+      "chem_12_101:c014": [],
+      "step:1:instruction": [],
+      "step:1:observation": [],
+      "step:2:instruction": [],
+      "step:2:observation": [],
+      "step:3:instruction": [],
+      "step:3:observation": []
+    },
+    "path_citations": {
+      "/procedure_steps/0/instruction": [],
+      "/procedure_steps/0/observation": [],
+      "/procedure_steps/1/instruction": [],
+      "/procedure_steps/1/observation": [],
+      "/procedure_steps/2/instruction": [],
+      "/procedure_steps/2/observation": [],
+      "/materials/0": [],
+      "/safety_notes/0": [],
+      "/safety_notes/1": [],
+      "/scenes/0/description": [],
+      "/scenes/0/visible_actions/0": [],
+      "/scenes/0/visible_actions/1": [],
+      "/scenes/0/visible_actions/2": []
+    }
+  }
+}

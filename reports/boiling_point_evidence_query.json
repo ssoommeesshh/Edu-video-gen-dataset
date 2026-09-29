@@ -1,0 +1,415 @@
+{
+  "query": "Determine the boiling point of an organic compound",
+  "retrieval_status": "confident_match",
+  "retrieval_message": "I found a confident match in the NCERT experiment catalog.",
+  "matches": [
+    {
+      "experiment_id": "chem_12_101",
+      "title": "Determine the boiling point of an organic compound",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "retrieval_score": 0.6676440831081897,
+      "source_verification": "unverified",
+      "retrieval_eligibility": "review_required",
+      "video_readiness": "review_required",
+      "source_status": "has_candidate_sections",
+      "sections": [
+        {
+          "section_id": "chem_12_101:manual_section",
+          "heading": "Experiment 1.1",
+          "manual_filename": "Manual_01.pdf",
+          "review_status": "candidate_needs_human_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "manual_filename": "Manual_01.pdf",
+              "edition": "First Edition\nApril 2018  Chaitra 1940",
+              "manual_sha256": "fc4dcbac1a6042703b67ca51eb8df539dc39b50bb1928e80895259f366e822c9",
+              "pdf_page": 28,
+              "printed_page": "17",
+              "section_heading": "Experiment 1.1",
+              "quality_flags": [],
+              "review_status": "extracted_needs_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "manual_filename": "Manual_01.pdf",
+              "edition": "First Edition\nApril 2018  Chaitra 1940",
+              "manual_sha256": "fc4dcbac1a6042703b67ca51eb8df539dc39b50bb1928e80895259f366e822c9",
+              "pdf_page": 29,
+              "printed_page": "18",
+              "section_heading": "Experiment 1.1",
+              "quality_flags": [],
+              "review_status": "extracted_needs_review"
+            }
+          ]
+        }
+      ],
+      "source_passages": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "manual_filename": "Manual_01.pdf",
+          "edition": "First Edition\nApril 2018  Chaitra 1940",
+          "manual_sha256": "fc4dcbac1a6042703b67ca51eb8df539dc39b50bb1928e80895259f366e822c9",
+          "pdf_page": 28,
+          "printed_page": "17",
+          "section_heading": "Experiment 1.1",
+          "quality_flags": [],
+          "review_status": "extracted_needs_review",
+          "exact_quote": "chapter 1\ncharacterIsatIon and \npurIfIcatIon of cheMIcal \nsubstances\nexperIMent 1.1\nTo determine the boiling point of an organic compound.\napparatus requIred\nBeaker (50 mL), capillary tube, ignition tube, thermometer, \niron stand (with clamp), wire gauze, tripod stand and burner/\nspirit lamp.\ncheMIcals requIred\norganic liquids, such as \nBenzene and Ethyl methyl \nketone for boiling point \n(b.p.) determination.\nprocedure\n 1. Take a 50 mL glass \nbeaker and fill it \nhalf with water.\n 2. Take a capillary \ntube and seal its \none end by heating \nit\tin\tthe\tflame.\n 3. Transfer a few \ndrops of the organic \nliquid compound in \nthe ignition tube. \nDip the open end of \ncapillary tube into \nthe liquid taken in \nthe ignition tube.\nFig. 1.1: Arrangement showing \nboiling point determination\nChemistry Manual Final _31-10-2017.indd   17 19-03-2018   14:21:49"
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "manual_filename": "Manual_01.pdf",
+          "edition": "First Edition\nApril 2018  Chaitra 1940",
+          "manual_sha256": "fc4dcbac1a6042703b67ca51eb8df539dc39b50bb1928e80895259f366e822c9",
+          "pdf_page": 29,
+          "printed_page": "18",
+          "section_heading": "Experiment 1.1",
+          "quality_flags": [],
+          "review_status": "extracted_needs_review",
+          "exact_quote": "18\nManual of Microscale cheMistry laboratory Kit\n 4. Tie the ignition tube with the thermometer with the help \nof a thread in such a way that the lower end of the ignition \ntube is near the bulb of the thermometer. \n 5. Keep the 50 mL beaker on a wire gauze kept on a tripod \nstand. Fix the thermometer and the ignition tube with \nthe help of thread in such a way that the bulb of the \nthermometer and half of the ignition tube are dipped in \nwater.\n 6. Heat the beaker gently.\n 7. Note the temperature as soon as regular stream of bubbles \nare seen coming out of the liquid in the ignition tube.\nresult\n 1. Boiling point of Benzene =........°c\n  Literature value = 78°c\n 2. Boiling point of Ethyl methyl ketone =.......°c\n  Literature value = 80°c\nnote\nIf the boiling point of the liquid is more than 95°c, take liquid \nparaffin\tin\tthe\tbeaker\tin\tplace\tof\twater.\nprecautIons\nFix the thermometer in the beaker in such a way that its bulb \nand the ignition tube do not touch the beaker.\nChemistry Manual Final _31-10-2017.indd   18 19-03-2018   14:21:49"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "chem_12_101:c001",
+          "kind": "action",
+          "text": "Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.6154,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.3846,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c002",
+          "kind": "observation",
+          "text": "Record the visible result and measurement described by the manual for this step.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.3333,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.1667,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c003",
+          "kind": "action",
+          "text": "Heat the sample gradually and observe the temperature while vapour escapes through the capillary.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.2,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c004",
+          "kind": "observation",
+          "text": "Record the visible result and measurement described by the manual for this step.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.3333,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.1667,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c005",
+          "kind": "action",
+          "text": "Record the temperature at which continuous bubbling begins and compare it with the expected boiling point.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.2727,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.2727,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c006",
+          "kind": "observation",
+          "text": "Record the visible result and measurement described by the manual for this step.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": "needs_review",
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.3333,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.1667,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c007",
+          "kind": "material",
+          "text": "sample, capillary tube, ignition tube, thermometer, beaker, burner, stand",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.875,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.625,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c008",
+          "kind": "safety",
+          "text": "Follow the supplied manual and teacher supervision for quantities, heating, acids, bases, organic solvents, and waste disposal.",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.2308,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c009",
+          "kind": "safety",
+          "text": "Wear eye protection and do not taste or directly handle chemicals.",
+          "scene_ids": [],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.2,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c010",
+          "kind": "scene",
+          "text": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.52,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.28,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c011",
+          "kind": "action",
+          "text": "arrange apparatus",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.5,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c012",
+          "kind": "action",
+          "text": "perform manual procedure",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.6667,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.3333,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        },
+        {
+          "claim_id": "chem_12_101:c013",
+          "kind": "action",
+          "text": "record observation",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": []
+        },
+        {
+          "claim_id": "chem_12_101:c014",
+          "kind": "quantity",
+          "text": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+          "scene_ids": [
+            "chem_12_101_scene"
+          ],
+          "scene_link_status": null,
+          "support_status": "needs_review",
+          "passages": [
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+              "printed_page": "17",
+              "score": 0.52,
+              "status": "candidate_needs_human_review"
+            },
+            {
+              "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+              "printed_page": "18",
+              "score": 0.28,
+              "status": "candidate_needs_human_review"
+            }
+          ]
+        }
+      ],
+      "confidence_status": "candidate_needs_human_review"
+    }
+  ],
+  "nearby_experiments": [
+    {
+      "experiment_id": "chem_12_102",
+      "title": "Determine the melting point of an organic compound",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.36570059357695545,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_12_402",
+      "title": "Identify one functional group in an organic compound",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.2787677648810375,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_12_401",
+      "title": "Detect extra elements in an organic compound",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.2710416529363421,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_12_103",
+      "title": "Purify a given compound by crystallisation",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.08085986869794798,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    },
+    {
+      "experiment_id": "chem_12_403",
+      "title": "Characterise carbohydrates, fats, and proteins in food",
+      "subject": "Chemistry",
+      "class_level": 12,
+      "score": 0.048400300220476054,
+      "relatedness_basis": "catalog retrieval similarity; navigation only"
+    }
+  ],
+  "prompt_eligible_experiment_ids": []
+}

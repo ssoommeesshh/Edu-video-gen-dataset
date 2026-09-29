@@ -1,0 +1,184 @@
+{
+  "status": "blocked",
+  "experiment_id": "chem_9_001",
+  "message": "Required claims or step-to-scene links lack verified evidence; no prompts were generated.",
+  "review_report": {
+    "status": "review_required",
+    "missing_claims": [
+      {
+        "claim_id": "chem_9_001:c001",
+        "claim": "Fill one beaker with cold water and one with warm water.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c002",
+        "claim": "The two beakers contain equal-looking water at different temperatures.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c003",
+        "claim": "Place one drop of ink gently in the center of each beaker without stirring.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c004",
+        "claim": "A dark ink region appears at the point of addition.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c005",
+        "claim": "Observe both beakers for the same time interval.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c006",
+        "claim": "Ink spreads through warm water faster than through cold water.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c007",
+        "claim": "Record the relative diffusion rates and explain the observation using particle motion.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c008",
+        "claim": "Higher temperature is associated with faster visible spreading.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c009",
+        "claim": "two transparent beakers",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c010",
+        "claim": "cold water",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c011",
+        "claim": "warm water",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c012",
+        "claim": "ink drop",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c013",
+        "claim": "dropper",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c014",
+        "claim": "Use warm water that is safe to handle, not boiling water.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c015",
+        "claim": "Keep liquids away from electrical equipment.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c016",
+        "claim": "Two identical beakers, one marked warm and one cold, show ink diffusing through water without stirring.",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c017",
+        "claim": "add ink drop",
+        "candidate_passage_ids": []
+      },
+      {
+        "claim_id": "chem_9_001:c018",
+        "claim": "observe spreading",
+        "candidate_passage_ids": []
+      },
+      {
+        "step_id": 1,
+        "claim": "step-to-scene relationship",
+        "candidate_scene_ids": [
+          "diffusion"
+        ]
+      },
+      {
+        "step_id": 2,
+        "claim": "step-to-scene relationship",
+        "candidate_scene_ids": [
+          "diffusion"
+        ]
+      },
+      {
+        "step_id": 3,
+        "claim": "step-to-scene relationship",
+        "candidate_scene_ids": [
+          "diffusion"
+        ]
+      },
+      {
+        "step_id": 4,
+        "claim": "step-to-scene relationship",
+        "candidate_scene_ids": [
+          "diffusion"
+        ]
+      }
+    ],
+    "citations": [],
+    "claim_citations": {
+      "chem_9_001:c001": [],
+      "chem_9_001:c002": [],
+      "chem_9_001:c003": [],
+      "chem_9_001:c004": [],
+      "chem_9_001:c005": [],
+      "chem_9_001:c006": [],
+      "chem_9_001:c007": [],
+      "chem_9_001:c008": [],
+      "chem_9_001:c009": [],
+      "chem_9_001:c010": [],
+      "chem_9_001:c011": [],
+      "chem_9_001:c012": [],
+      "chem_9_001:c013": [],
+      "chem_9_001:c014": [],
+      "chem_9_001:c015": [],
+      "chem_9_001:c016": [],
+      "chem_9_001:c017": [],
+      "chem_9_001:c018": [],
+      "step:1:instruction": [],
+      "step:1:observation": [],
+      "step:2:instruction": [],
+      "step:2:observation": [],
+      "step:3:instruction": [],
+      "step:3:observation": [],
+      "step:4:instruction": [],
+      "step:4:observation": []
+    },
+    "path_citations": {
+      "/procedure_steps/0/instruction": [],
+      "/procedure_steps/0/observation": [],
+      "/procedure_steps/1/instruction": [],
+      "/procedure_steps/1/observation": [],
+      "/procedure_steps/2/instruction": [],
+      "/procedure_steps/2/observation": [],
+      "/procedure_steps/3/instruction": [],
+      "/procedure_steps/3/observation": [],
+      "/materials/0": [],
+      "/materials/1": [],
+      "/materials/2": [],
+      "/materials/3": [],
+      "/materials/4": [],
+      "/safety_notes/0": [],
+      "/safety_notes/1": [],
+      "/scenes/0/description": [],
+      "/scenes/0/visible_actions/0": [],
+      "/scenes/0/visible_actions/1": []
+    }
+  },
+  "experiment": null,
+  "validation": {
+    "valid": false,
+    "errors": [
+      "Evidence gate did not produce prompts."
+    ]
+  }
+}

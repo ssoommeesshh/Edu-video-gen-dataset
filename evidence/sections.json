@@ -588,7 +588,14 @@
     "catalog_title": "Use of Vernier Callipers to measure dimensions, volume, and density",
     "printed_start": 1,
     "printed_end": 6,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0029",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0030",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0031",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0032",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0033",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0034"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -601,7 +608,13 @@
     "catalog_title": "Use of screw gauge to measure wire diameter, sheet thickness, and lamina volume",
     "printed_start": 7,
     "printed_end": 11,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0035",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0036",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0037",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0038",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0039"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -614,7 +627,12 @@
     "catalog_title": "Determine the radius of curvature of a spherical surface by a spherometer",
     "printed_start": 12,
     "printed_end": 15,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0040",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0041",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0042",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0043"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -627,7 +645,11 @@
     "catalog_title": "Determine masses of two objects using a beam balance",
     "printed_start": 16,
     "printed_end": 18,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0044",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0045",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0046"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -640,7 +662,12 @@
     "catalog_title": "Measure the weight of a body using the parallelogram law of vector addition",
     "printed_start": 19,
     "printed_end": 22,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0047",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0048",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0049",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0050"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -653,7 +680,12 @@
     "catalog_title": "Plot L-T and L-T squared graphs for a simple pendulum and find effective length of a seconds pendulum",
     "printed_start": 23,
     "printed_end": 26,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0051",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0052",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0053",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0054"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -666,7 +698,12 @@
     "catalog_title": "Study limiting friction versus normal reaction and determine coefficient of friction",
     "printed_start": 27,
     "printed_end": 30,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0055",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0056",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0057",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0058"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -679,7 +716,10 @@
     "catalog_title": "Find the downward force on a roller along an inclined plane and relate it to sin theta",
     "printed_start": 31,
     "printed_end": 32,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0059",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0060"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -692,7 +732,12 @@
     "catalog_title": "Find the force constant and effective mass of a helical spring using oscillations",
     "printed_start": 33,
     "printed_end": 36,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0061",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0062",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0063",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0064"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -705,7 +750,12 @@
     "catalog_title": "Study volume versus pressure for air at constant temperature",
     "printed_start": 37,
     "printed_end": 40,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0065",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0066",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0067",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0068"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -718,7 +768,12 @@
     "catalog_title": "Determine coefficient of viscosity of a liquid using terminal velocity",
     "printed_start": 41,
     "printed_end": 44,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0069",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0070",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0071",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0072"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -731,7 +786,10 @@
     "catalog_title": "Study temperature of a hot body versus time using a cooling curve",
     "printed_start": 45,
     "printed_end": 47,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0073",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0075"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -744,7 +802,12 @@
     "catalog_title": "Study frequency and length, and length and tension, of a wire using a sonometer",
     "printed_start": 48,
     "printed_end": 51,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0076",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0077",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0078",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0079"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -757,7 +820,12 @@
     "catalog_title": "Determine speed of sound in air using a resonance tube",
     "printed_start": 52,
     "printed_end": 55,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0080",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0081",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0082",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0083"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -770,7 +838,14 @@
     "catalog_title": "Determine specific heat capacity of a solid and liquid by the method of mixtures",
     "printed_start": 56,
     "printed_end": 61,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0084",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0085",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0086",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0087",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0088",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0089"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -783,7 +858,10 @@
     "catalog_title": "Make paper scales of least count 0.2 cm and 0.5 cm and measure length",
     "printed_start": 62,
     "printed_end": 63,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0090",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0091"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -796,7 +874,11 @@
     "catalog_title": "Determine mass of a body using a metre scale and the principle of moments",
     "printed_start": 64,
     "printed_end": 66,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0092",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0093",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0094"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -809,7 +891,11 @@
     "catalog_title": "Plot a graph from data using a proper scale and show precision error bars",
     "printed_start": 67,
     "printed_end": 69,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0095",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0096",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0097"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -822,7 +908,11 @@
     "catalog_title": "Measure rolling friction force for a roller on a horizontal plane",
     "printed_start": 70,
     "printed_end": 72,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0098",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0099",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0100"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -835,7 +925,11 @@
     "catalog_title": "Study range of a water jet versus angle of projection",
     "printed_start": 73,
     "printed_end": 75,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0101",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0102",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0103"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -848,7 +942,11 @@
     "catalog_title": "Study conservation of energy of a ball rolling down an inclined plane",
     "printed_start": 76,
     "printed_end": 78,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0104",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0105",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0106"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -861,7 +959,11 @@
     "catalog_title": "Study dissipation of energy of a simple pendulum with time",
     "printed_start": 79,
     "printed_end": 81,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0107",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0108",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0109"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -874,7 +976,10 @@
     "catalog_title": "Observe change of state and plot a cooling curve for molten wax",
     "printed_start": 82,
     "printed_end": 83,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0110",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0111"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -887,7 +992,10 @@
     "catalog_title": "Observe and explain heating of a bi-metallic strip",
     "printed_start": 84,
     "printed_end": 85,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0112",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0113"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -900,7 +1008,10 @@
     "catalog_title": "Study heating effect on liquid level in a container",
     "printed_start": 86,
     "printed_end": 87,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0114",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0115"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -913,7 +1024,10 @@
     "catalog_title": "Study detergent effect on water surface tension using capillary rise",
     "printed_start": 88,
     "printed_end": 89,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0116",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0117"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."
@@ -926,7 +1040,11 @@
     "catalog_title": "Study load effect on depression of a clamped metre scale",
     "printed_start": 90,
     "printed_end": 92,
-    "passage_ids": [],
+    "passage_ids": [
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0118",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0119",
+      "Physics_Laboratory_Manual_11-12_E:db884e8ea3db:p0120"
+    ],
     "review_status": "needs_review",
     "human_review": "pending",
     "basis": "Contents transcription; page boundaries and title alignment need human confirmation."

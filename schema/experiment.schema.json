@@ -16,6 +16,7 @@
     "scenes",
     "sources",
     "image_assets",
+    "evidence",
     "status"
   ],
   "properties": {
@@ -39,7 +40,10 @@
         "properties": {
           "step_id": {"type": "integer", "minimum": 1},
           "instruction": {"type": "string", "minLength": 5},
-          "observation": {"type": "string", "minLength": 5}
+          "observation": {"type": "string", "minLength": 5},
+          "scene_ids": {"type": "array", "items": {"type": "string"}},
+          "scene_link_status": {"type": "string", "enum": ["needs_review", "verified", "rejected"]},
+          "presentation": {"type": "string", "enum": ["physical", "overlay"]}
         }
       }
     },
@@ -71,7 +75,8 @@
           "source_type": {"type": "string", "enum": ["ncert_textbook", "ncert_lab_manual", "reference"]},
           "url": {"type": "string", "format": "uri"},
           "citation": {"type": "string", "minLength": 5},
-          "verification_status": {"type": "string", "enum": ["needs_page_check", "verified"]}
+          "verification_status": {"type": "string", "enum": ["needs_page_check", "verified"]},
+          "passage_ids": {"type": "array", "items": {"type": "string"}}
         }
       }
     },
@@ -92,6 +97,34 @@
       }
     },
     "tags": {"type": "array", "items": {"type": "string"}},
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["section_ids", "source_verification", "retrieval_eligibility", "video_readiness", "claims", "legacy_source_statuses"],
+      "properties": {
+        "section_ids": {"type": "array", "items": {"type": "string"}},
+        "source_verification": {"type": "string", "enum": ["unverified", "partially_verified", "verified", "no_link_in_supplied_pdfs"]},
+        "retrieval_eligibility": {"type": "string", "enum": ["review_required", "eligible", "ineligible"]},
+        "video_readiness": {"type": "string", "enum": ["review_required", "ready", "ineligible"]},
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["claim_id", "field_path", "text", "kind", "passage_ids", "review_status"],
+            "properties": {
+              "claim_id": {"type": "string"},
+              "field_path": {"type": "string"},
+              "text": {"type": "string"},
+              "kind": {"type": "string", "enum": ["action", "observation", "quantity", "safety", "material", "scene"]},
+              "passage_ids": {"type": "array", "items": {"type": "string"}},
+              "review_status": {"type": "string", "enum": ["needs_review", "verified", "rejected"]}
+            }
+          }
+        },
+        "legacy_source_statuses": {"type": "array", "items": {"type": "object"}}
+      }
+    },
     "status": {"type": "string", "enum": ["draft", "source_review", "ready"]}
   }
 }

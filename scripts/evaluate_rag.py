@@ -40,7 +40,8 @@ def main() -> None:
         print(f"QUERY: {query}")
         print(f"EXPECTED: {expected_id}")
         print(f"TOP_HIT: {top_hit}")
-        print(f"MATCHED: {hit}")
+        print(f"TOP_1_MATCHED: {top_hit == expected_id}")
+        print(f"TOP_5_RECALL: {hit}")
         print(f"TOP_5: {result_ids}")
         print("-" * 60)
 

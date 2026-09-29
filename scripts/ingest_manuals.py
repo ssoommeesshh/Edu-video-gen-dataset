@@ -25,14 +25,19 @@ def extract(path):
             flags.append('encoding_or_symbol_review')
         if caught:
             flags.append('extraction_warning')
-        # Explicit printed folio embedded in publisher footer, never a PDF offset.
+        # Prefer publisher footer. Physics content pages have a running folio
+        # without the DTP footer, calibrated against contents and PDF p122 -> p94.
         folios = re.findall(r'\.indd\s+(\d+)\s+\d{2}-\d{2}-\d{4}', text)
         printed = folios[-1] if len(set(folios)) == 1 else None
+        basis = 'publisher_indd_footer' if printed else None
+        if printed is None and path.name == 'Physics_Laboratory_Manual_11-12_E.pdf' and 29 <= number <= 226:
+            printed = str(number - 28)
+            basis = 'publisher_running_folio_offset_calibrated_pdf_122_printed_94'
         if printed is None:
             flags.append('printed_page_unresolved')
         pages.append({'manual_filename': path.name, 'manual_sha256': digest,
             'pdf_page': number, 'printed_page': printed,
-            'printed_page_basis': 'publisher_indd_footer' if printed else None,
+            'printed_page_basis': basis,
             'passage_id': f'{path.stem}:{digest[:12]}:p{number:04d}',
             'section_id': None, 'section_heading': None,
             'text': text, 'text_sha256': hashlib.sha256(text.encode()).hexdigest(),

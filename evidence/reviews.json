@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "review_policy": "Only explicit human review entries can create approved support edges. Empty by design until a reviewer verifies the quoted pages and claim links.",
+  "sections": {
+    "chem_12_101:manual_section": {
+      "status": "approved_for_retrieval",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "manual_sha256": "fc4dcbac1a6042703b67ca51eb8df539dc39b50bb1928e80895259f366e822c9",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Experiment title, apparatus, procedure, result, and precautions align with printed pages 17-18."
+    }
+  },
+  "claims": {
+    "chem_12_101:c001": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c002": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c003": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c004": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c005": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c006": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c007": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c008": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c009": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c010": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c011": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c012": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c013": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    },
+    "chem_12_101:c014": {
+      "status": "verified",
+      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewed_at": "2026-09-29",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [],
+      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+    }
+  }
+}
