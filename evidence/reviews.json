@@ -4,7 +4,7 @@
   "sections": {
     "chem_12_101:manual_section": {
       "status": "approved_for_retrieval",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
       "reviewed_at": "2026-09-29",
       "manual_sha256": "fc4dcbac1a6042703b67ca51eb8df539dc39b50bb1928e80895259f366e822c9",
       "passage_ids": [
@@ -15,15 +15,23 @@
         "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Experiment title, apparatus, procedure, result, and precautions align with printed pages 17-18."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "rationale": "Visually inspected rendered PDF pages 28-29, printed pages 17-18, including Fig. 1.1; title and section range match. Does not certify physical safety or numeric literature values.",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending"
     }
   },
   "claims": {
-    "chem_12_101:c001": {
+    "chem_12_101:pilot_v1:c001": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "8387b620d9b0f5f56e7aa7ad156209df3ff5ebbb96caea8d49fe219acf1262cc",
       "passage_ids": [
         "Manual_01:fc4dcbac1a60:p0028",
         "Manual_01:fc4dcbac1a60:p0029"
@@ -32,193 +40,469 @@
         "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        }
+      ],
+      "rationale": "Grouped paraphrase of manual procedure steps 1-5; no timing inferred."
     },
-    "chem_12_101:c002": {
+    "chem_12_101:pilot_v1:c002": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "f25f2f6c181bbb8a448b978bafe3230b3a143d8bab7c687fa06b775ddac94d8b",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
         "Manual_01:fc4dcbac1a60:p0029"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ],
+      "rationale": "Required setup state, not an experimentally measured outcome."
     },
-    "chem_12_101:c003": {
+    "chem_12_101:pilot_v1:c003": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "51bf771e10cbac334f58e4e06e6d322c01225b8a3a0976cdbbf2ad6745a81e02",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
         "Manual_01:fc4dcbac1a60:p0029"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "6. Heat the beaker gently."
+        }
+      ],
+      "rationale": "Manual procedure step 6."
     },
-    "chem_12_101:c004": {
+    "chem_12_101:pilot_v1:c004": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "6971e8dc02cb05cdf62f210e344b47f62cd3e9cecaecf1f2b6a2a773eb16289e",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
         "Manual_01:fc4dcbac1a60:p0029"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ],
+      "rationale": "Prospective endpoint to watch for, not a claim that heating immediately produces bubbles."
     },
-    "chem_12_101:c005": {
+    "chem_12_101:pilot_v1:c005": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "ef135b85bf89402cc2b61c9de4a6959af52b3d6d7b8ff685b3b7b73e97c4641b",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
         "Manual_01:fc4dcbac1a60:p0029"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ],
+      "rationale": "Manual procedure step 7; numeric measurement remains unfilled."
     },
-    "chem_12_101:c006": {
+    "chem_12_101:pilot_v1:c006": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "dd363b98f9af8faec8774bdc4571004c6050e795d5c7b87b92131e8ef4e3c0b9",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
         "Manual_01:fc4dcbac1a60:p0029"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ],
+      "rationale": "Defines the measurement event; no numeric result invented."
     },
-    "chem_12_101:c007": {
+    "chem_12_101:pilot_v1:c007": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "b04e29898388195e07ea1c96d6498f7add056a078ae1778395a016ac6ca2e10d",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
-        "Manual_01:fc4dcbac1a60:p0029"
+        "Manual_01:fc4dcbac1a60:p0028"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
-        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
     },
-    "chem_12_101:c008": {
+    "chem_12_101:pilot_v1:c008": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "b920bc047021c5d874fdf0eaee13f7c99585d6fdcb1ae714e18296ae77cccb3d",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
-        "Manual_01:fc4dcbac1a60:p0029"
+        "Manual_01:fc4dcbac1a60:p0028"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
-        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Take a capillary tube and seal its one end by heating it in the flame."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
     },
-    "chem_12_101:c009": {
+    "chem_12_101:pilot_v1:c009": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "b195a5e611ee98d5813a95b4294499a5e2eb0bf9936a0c7604c5f21a6f87d770",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
-        "Manual_01:fc4dcbac1a60:p0029"
+        "Manual_01:fc4dcbac1a60:p0028"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
-        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
     },
-    "chem_12_101:c010": {
+    "chem_12_101:pilot_v1:c010": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "d1aa08953223ddc8e6dcee2419f103d225fcdc392ec8a9c1db142da8749b42d7",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
-        "Manual_01:fc4dcbac1a60:p0029"
+        "Manual_01:fc4dcbac1a60:p0028"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
-        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
     },
-    "chem_12_101:c011": {
+    "chem_12_101:pilot_v1:c011": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "e4b05c931088d5353283ac4a59fd6cf72b22ffa682e7be41dddbc1093d04835b",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
-        "Manual_01:fc4dcbac1a60:p0029"
+        "Manual_01:fc4dcbac1a60:p0028"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
-        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
     },
-    "chem_12_101:c012": {
+    "chem_12_101:pilot_v1:c012": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "557f6d94fc5ac75c66573849fcfc74d8c9623e4d2de62207893dda70e2fe0f48",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
-        "Manual_01:fc4dcbac1a60:p0029"
+        "Manual_01:fc4dcbac1a60:p0028"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
-        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
     },
-    "chem_12_101:c013": {
+    "chem_12_101:pilot_v1:c013": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "010aa12c7fa5f1b391a578eb0b35febdbfb6ffaf339854e68a8ec222c50d3638",
       "passage_ids": [
-        "Manual_01:fc4dcbac1a60:p0028",
-        "Manual_01:fc4dcbac1a60:p0029"
+        "Manual_01:fc4dcbac1a60:p0028"
       ],
       "passage_hashes": {
-        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
-        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
     },
-    "chem_12_101:c014": {
+    "chem_12_101:pilot_v1:c014": {
       "status": "verified",
-      "reviewer": "agent-assisted-vertical-slice-review",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
       "reviewed_at": "2026-09-29",
+      "claim_sha256": "8fec6a642a7e020a2528422e9fe609c6791d54bc0ba1eea528a30d58aa791117",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
+    },
+    "chem_12_101:pilot_v1:c015": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "ad7f787be3650382e51bfcd31c1aa56db11527c0b58cafa9031e5a048f252919",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
+    },
+    "chem_12_101:pilot_v1:c016": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "56135e50776392191f94cde460f03021c0fd972461b596fab93179b13290fc98",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Take a 50 mL glass beaker and fill it half with water."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
+    },
+    "chem_12_101:pilot_v1:c017": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "469834d90a55ddf80bde535fd26624bb3a25f4a392800f65f6c1f81954dd69fe",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Transfer a few drops of the organic liquid compound in the ignition tube."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
+    },
+    "chem_12_101:pilot_v1:c018": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "103580d8d666591699e39c23c883eb123069ecf587016d28c97eb5f293baaec9",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ],
+      "rationale": "Source-stated precaution or conditional bath substitution. Degree symbol visually checked against rendered page."
+    },
+    "chem_12_101:pilot_v1:c019": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "aa5dce9b48322bd7296e48bc6b8684daf14378220a5e6830238917679433eac3",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "If the boiling point of the liquid is more than 95°c, take liquid paraffin in the beaker in place of water."
+        }
+      ],
+      "rationale": "Source-stated precaution or conditional bath substitution. Degree symbol visually checked against rendered page."
+    },
+    "chem_12_101:pilot_v1:c020": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "4829ab790b85263f5050da537a12f62238b49744ef95c7afcadf75f0542d6145",
       "passage_ids": [
         "Manual_01:fc4dcbac1a60:p0028",
         "Manual_01:fc4dcbac1a60:p0029"
@@ -227,8 +511,211 @@
         "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
         "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
       },
-      "visually_checked_passage_ids": [],
-      "rationale": "Lenient vertical-slice approval against the complete Experiment 1.1 passage range; prune or revise during human review."
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ],
+      "rationale": "Apparatus relationships checked against Fig. 1.1 and procedure; scene grouping is editorial, not prescribed filming."
+    },
+    "chem_12_101:pilot_v1:c021": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "b443b7c25d2534f318f17e0c84d344bb9ae74890d8beb4a0b8066e9e2c44c580",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "6. Heat the beaker gently."
+        }
+      ],
+      "rationale": "Visible action from steps 6-7; no motion duration or frame accuracy approved."
+    },
+    "chem_12_101:pilot_v1:c022": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "b32579a6716d9b2d4b9d35cb1dcee945305fc93edbca21f997bdd855cde62a36",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ],
+      "rationale": "Visible action from steps 6-7; no motion duration or frame accuracy approved."
+    },
+    "chem_12_101:pilot_v1:c023": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "d5cdbecfc85776eaeb0925112be920498805f8ac8ba22e73c7186a193c2f2303",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ],
+      "rationale": "Visible action from steps 6-7; no motion duration or frame accuracy approved."
+    },
+    "chem_12_101:pilot_v1:c024": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "03e723bc42edfbe2897941e2fc0cd3592911cefb7b860ff53521ca196c651df1",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        }
+      ],
+      "rationale": "Grouped paraphrase of manual procedure steps 1-5; no timing inferred."
+    },
+    "chem_12_101:pilot_v1:c025": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "8ea7b2a74718597fa1f76d86c9e7b3d168a6f0eb4c1594398a5e61c3cc718d53",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ],
+      "rationale": "Listed apparatus or material explicitly used in the procedure."
+    },
+    "chem_12_101:pilot_v1:c026": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "3ab0db79923ca74be85d0dc83c00087e2b7034a5e64dbe912a4f0c4d513fef07",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "If the boiling point of the liquid is more than 95°c, take liquid paraffin in the beaker in place of water."
+        }
+      ],
+      "rationale": "Source-stated precaution or conditional bath substitution. Degree symbol visually checked against rendered page."
+    },
+    "chem_12_101:pilot_v1:c027": {
+      "status": "verified",
+      "reviewer": "Codex source-review agent",
+      "review_kind": "agent_visual_source_review",
+      "human_review_status": "pending",
+      "reviewed_at": "2026-09-29",
+      "claim_sha256": "cbb80b30ec0789118b692764c3ac31c0ae39a9700e85b3bc886dd5486d6d50be",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "passage_hashes": {
+        "Manual_01:fc4dcbac1a60:p0028": "80f3a081510e3dc5ae312bb4471fa8bf73e99f2e0e788950995ce89e26e67a78",
+        "Manual_01:fc4dcbac1a60:p0029": "41e8862871c415c1605e8c103274fffb421c8895433dd9256a7aa713810a1e44"
+      },
+      "visually_checked_passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ],
+      "rationale": "Apparatus relationships checked against Fig. 1.1 and procedure; scene grouping is editorial, not prescribed filming."
     }
   }
 }

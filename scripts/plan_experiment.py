@@ -64,10 +64,17 @@ def plan_experiment(query="", experiment_id=None, durations=None):
     unknown = set(durations) - {c["clip_id"] for c in clips}
     if unknown:
         raise ValueError(f"Duration overrides contain unknown clip IDs: {sorted(unknown)}")
+    reviews = json.loads((ROOT / "evidence/reviews.json").read_text(encoding="utf-8"))["claims"]
+    used_reviews = [reviews[c["claim_id"]] for c in record["evidence"]["claims"]]
+    provenance = {
+        "reviewers": sorted({r["reviewer"] for r in used_reviews}),
+        "review_kinds": sorted({r.get("review_kind", "unspecified") for r in used_reviews}),
+        "human_review_status": "approved" if all(r.get("human_review_status") == "approved" for r in used_reviews) else "pending",
+    }
     return {"contract_version": "1.0", "status": "ready", "experiment_id": experiment_id,
             "title": record["title"], "subject": record["subject"], "dataset_revision": revision(),
             "source_references": record.get("sources", []), "review_status": "evidence_gate_passed",
-            "visual_review_status": "not_reviewed", "clips": clips}
+            "visual_review_status": "not_reviewed", "review_provenance": provenance, "clips": clips}
 
 
 def main():

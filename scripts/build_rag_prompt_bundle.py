@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import pickle
 import re
@@ -74,14 +73,11 @@ def evidence_review(record: dict[str, Any]) -> dict[str, Any]:
     if not GRAPH_PATH.exists():
         return {"status": "review_required", "missing_claims": ["evidence graph not built"], "citations": []}
     try:
-        from .build_evidence_graph import GRAPH_VERSION
+        from .build_evidence_graph import evidence_fingerprint
     except ImportError:
-        from build_evidence_graph import GRAPH_VERSION
+        from build_evidence_graph import evidence_fingerprint
     graph = json.loads(GRAPH_PATH.read_text(encoding="utf-8"))
-    fingerprint_inputs = ["data/chemistry_experiments.json", "evidence/manuals.json", "evidence/sections.json",
-                          "evidence/passages.jsonl", "evidence/reviews.json"]
-    fingerprint = hashlib.sha256((str(GRAPH_VERSION) + "".join(hashlib.sha256((ROOT / path).read_text(encoding="utf-8").encode("utf-8")).hexdigest()
-        for path in fingerprint_inputs)).encode()).hexdigest()
+    fingerprint = evidence_fingerprint(ROOT)
     if graph.get("build_fingerprint") != fingerprint:
         return {"status": "review_required", "missing_claims": ["evidence graph is stale; rebuild it"], "citations": []}
     claims = [node for node in graph["nodes"] if node.get("type") == "claim" and node.get("experiment_id") == record["experiment_id"]]

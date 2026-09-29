@@ -177,5 +177,10 @@
       "/scenes/0/visible_actions/1": [],
       "/scenes/0/visible_actions/2": []
     }
+  },
+  "report_context": {
+    "status": "historical_snapshot",
+    "superseded_by": "boiling_point_source_review.json",
+    "note": "Pre-pilot blocked report; not the current canonical review state."
   }
 }

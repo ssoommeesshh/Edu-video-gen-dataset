@@ -1,0 +1,606 @@
+{
+  "experiment_id": "chem_12_101",
+  "review_kind": "agent_visual_source_review",
+  "human_review_status": "pending",
+  "reviewed_at": "2026-09-29",
+  "manual": {
+    "filename": "Manual_01.pdf",
+    "sha256": "fc4dcbac1a6042703b67ca51eb8df539dc39b50bb1928e80895259f366e822c9",
+    "printed_pages": [
+      17,
+      18
+    ],
+    "pdf_pages": [
+      28,
+      29
+    ],
+    "figure": "1.1"
+  },
+  "summary": "Replace the blanket integration approval with specific, claim-bound source checks. All claims below describe source support only.",
+  "removed_or_revised": [
+    {
+      "field": "observations",
+      "finding": "Three generic placeholders were previously marked verified; replaced with source-specific setup and endpoint statements."
+    },
+    {
+      "field": "procedure_steps/1/instruction",
+      "finding": "The old vapour-escape description was not the manual wording; replaced by gentle heating and the visible bubbling criterion."
+    },
+    {
+      "field": "materials",
+      "finding": "Split a single vague materials string into individual source-linked apparatus and material entries."
+    },
+    {
+      "field": "review_method",
+      "finding": "Retired the lenient blanket approval script. Human scientific review remains pending."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "chem_12_101:pilot_v1:c001",
+      "field_path": "/procedure_steps/0/instruction",
+      "text": "Half-fill a 50 mL glass beaker with water. Seal one end of a capillary tube by heating it in a flame. Put a few drops of the organic liquid in an ignition tube and dip the open capillary end into it. Tie the ignition tube to the thermometer with its lower end near the thermometer bulb. Set the beaker on wire gauze on a tripod and position the thermometer bulb and half of the ignition tube in the water.",
+      "kind": "action",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Grouped paraphrase of manual procedure steps 1-5; no timing inferred.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c002",
+      "field_path": "/procedure_steps/0/observation",
+      "text": "The thermometer bulb and half of the ignition tube are immersed in the bath; the bulb and ignition tube do not touch the beaker.",
+      "kind": "observation",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Required setup state, not an experimentally measured outcome.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c003",
+      "field_path": "/procedure_steps/1/instruction",
+      "text": "Heat the beaker gently.",
+      "kind": "action",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Manual procedure step 6.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "6. Heat the beaker gently."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c004",
+      "field_path": "/procedure_steps/1/observation",
+      "text": "Watch for a regular stream of bubbles coming out of the liquid in the ignition tube.",
+      "kind": "observation",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Prospective endpoint to watch for, not a claim that heating immediately produces bubbles.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c005",
+      "field_path": "/procedure_steps/2/instruction",
+      "text": "Note the thermometer temperature as soon as a regular stream of bubbles is seen coming out of the liquid in the ignition tube.",
+      "kind": "action",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Manual procedure step 7; numeric measurement remains unfilled.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c006",
+      "field_path": "/procedure_steps/2/observation",
+      "text": "The measurement to record is the thermometer reading at the onset of the regular stream of bubbles.",
+      "kind": "observation",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Defines the measurement event; no numeric result invented.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c007",
+      "field_path": "/materials/0",
+      "text": "50 mL glass beaker",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c008",
+      "field_path": "/materials/1",
+      "text": "Capillary tube sealed at one end",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Take a capillary tube and seal its one end by heating it in the flame."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c009",
+      "field_path": "/materials/2",
+      "text": "Ignition tube",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c010",
+      "field_path": "/materials/3",
+      "text": "Thermometer",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c011",
+      "field_path": "/materials/4",
+      "text": "Iron stand with clamp",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c012",
+      "field_path": "/materials/5",
+      "text": "Wire gauze",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c013",
+      "field_path": "/materials/6",
+      "text": "Tripod stand",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c014",
+      "field_path": "/materials/7",
+      "text": "Burner or spirit lamp",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c015",
+      "field_path": "/materials/8",
+      "text": "Thread",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c016",
+      "field_path": "/materials/9",
+      "text": "Water for the bath",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Take a 50 mL glass beaker and fill it half with water."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c017",
+      "field_path": "/materials/10",
+      "text": "A few drops of an organic liquid sample",
+      "kind": "material",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Transfer a few drops of the organic liquid compound in the ignition tube."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c018",
+      "field_path": "/safety_notes/0",
+      "text": "Fix the thermometer so its bulb and the ignition tube do not touch the beaker.",
+      "kind": "safety",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Source-stated precaution or conditional bath substitution. Degree symbol visually checked against rendered page.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c019",
+      "field_path": "/safety_notes/1",
+      "text": "Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.",
+      "kind": "safety",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Source-stated precaution or conditional bath substitution. Degree symbol visually checked against rendered page.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "If the boiling point of the liquid is more than 95°c, take liquid paraffin in the beaker in place of water."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c020",
+      "field_path": "/scenes/0/description",
+      "text": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube.",
+      "kind": "scene",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Apparatus relationships checked against Fig. 1.1 and procedure; scene grouping is editorial, not prescribed filming.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c021",
+      "field_path": "/scenes/0/visible_actions/0",
+      "text": "Heat the beaker gently",
+      "kind": "action",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Visible action from steps 6-7; no motion duration or frame accuracy approved.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "6. Heat the beaker gently."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c022",
+      "field_path": "/scenes/0/visible_actions/1",
+      "text": "Observe a regular stream of bubbles in the ignition tube",
+      "kind": "action",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Visible action from steps 6-7; no motion duration or frame accuracy approved.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c023",
+      "field_path": "/scenes/0/visible_actions/2",
+      "text": "Note the thermometer temperature at the bubbling endpoint",
+      "kind": "action",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Visible action from steps 6-7; no motion duration or frame accuracy approved.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "7. Note the temperature as soon as regular stream of bubbles are seen coming out of the liquid in the ignition tube."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c024",
+      "field_path": "/procedure_steps/0/instruction",
+      "text": "Half-fill a 50 mL glass beaker with water. Seal one end of a capillary tube by heating it in a flame. Put a few drops of the organic liquid in an ignition tube and dip the open capillary end into it. Tie the ignition tube to the thermometer with its lower end near the thermometer bulb. Set the beaker on wire gauze on a tripod and position the thermometer bulb and half of the ignition tube in the water.",
+      "kind": "quantity",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Grouped paraphrase of manual procedure steps 1-5; no timing inferred.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c025",
+      "field_path": "/materials/0",
+      "text": "50 mL glass beaker",
+      "kind": "quantity",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Listed apparatus or material explicitly used in the procedure.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "Beaker (50 mL), capillary tube, ignition tube, thermometer, iron stand (with clamp), wire gauze, tripod stand and burner/ spirit lamp."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c026",
+      "field_path": "/safety_notes/1",
+      "text": "Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.",
+      "kind": "quantity",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Source-stated precaution or conditional bath substitution. Degree symbol visually checked against rendered page.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "If the boiling point of the liquid is more than 95°c, take liquid paraffin in the beaker in place of water."
+        }
+      ]
+    },
+    {
+      "claim_id": "chem_12_101:pilot_v1:c027",
+      "field_path": "/scenes/0/description",
+      "text": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube.",
+      "kind": "quantity",
+      "passage_ids": [
+        "Manual_01:fc4dcbac1a60:p0028",
+        "Manual_01:fc4dcbac1a60:p0029"
+      ],
+      "review_status": "verified",
+      "support_status": "supported_by_supplied_manual",
+      "rationale": "Apparatus relationships checked against Fig. 1.1 and procedure; scene grouping is editorial, not prescribed filming.",
+      "quotes": [
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0028",
+          "exact_quote": "1. Take a 50 mL glass beaker and fill it half with water. 2. Take a capillary tube and seal its one end by heating it in the flame. 3. Transfer a few drops of the organic liquid compound in the ignition tube. Dip the open end of capillary tube into the liquid taken in the ignition tube."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "4. Tie the ignition tube with the thermometer with the help of a thread in such a way that the lower end of the ignition tube is near the bulb of the thermometer. 5. Keep the 50 mL beaker on a wire gauze kept on a tripod stand. Fix the thermometer and the ignition tube with the help of thread in such a way that the bulb of the thermometer and half of the ignition tube are dipped in water."
+        },
+        {
+          "passage_id": "Manual_01:fc4dcbac1a60:p0029",
+          "exact_quote": "Fix the thermometer in the beaker in such a way that its bulb and the ignition tube do not touch the beaker."
+        }
+      ]
+    }
+  ],
+  "scene_mapping": {
+    "scene_id": "chem_12_101_scene",
+    "step_ids": [
+      1,
+      2,
+      3
+    ],
+    "source": "Fig. 1.1 and procedure steps 1-7",
+    "status": "agent_reviewed_editorial_grouping",
+    "notes": "One independent apparatus setup. Step 1 groups five preparation actions and is not a calibrated one-second filming instruction."
+  },
+  "unresolved": [
+    {
+      "issue": "Sample selection and independent scientific review",
+      "status": "pending",
+      "details": "The manual names benzene and ethyl methyl ketone. No real sample or safe filmed protocol is selected by this data review."
+    },
+    {
+      "issue": "Numeric results",
+      "status": "not_populated",
+      "details": "Measured result fields are blank. Printed literature values were not independently validated and are excluded from the pilot prompts; do not present a generated reading as measured evidence."
+    },
+    {
+      "issue": "Video timing and visual correctness",
+      "status": "not_tested",
+      "details": "One-second CPU durations remain provisional. No GPU/hosted video or real setup image has been reviewed."
+    }
+  ],
+  "image_requirements": {
+    "independent_scene_count": 1,
+    "candidate_path": null,
+    "source": null,
+    "license_status": "not_selected",
+    "visual_review_status": "pending",
+    "reference": "Manual_01.pdf Fig. 1.1, printed page 17 / PDF page 28",
+    "checklist": [
+      "50 mL beaker supported by wire gauze and tripod",
+      "Thermometer clamped and ignition tube tied beside it",
+      "Thermometer bulb and lower half of ignition tube immersed, without touching beaker",
+      "Capillary sealed at one end, open end dipped into organic liquid",
+      "Starting image represents the selected start state; an already heated/bubbling image is not suitable for the setup step"
+    ],
+    "notes": "Reference diagram checked for apparatus only; it has not been selected or licensed as a distributable video input."
+  }
+}

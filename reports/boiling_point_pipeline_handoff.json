@@ -34,31 +34,41 @@
       {
         "name": "clip_1",
         "image_state": {
-          "scene": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+          "scene": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube.",
           "camera": "stable medium shot of a school laboratory bench",
           "lighting": "clear classroom laboratory lighting",
           "objects": [
-            "sample, capillary tube, ignition tube, thermometer, beaker, burner, stand"
+            "50 mL glass beaker",
+            "Capillary tube sealed at one end",
+            "Ignition tube",
+            "Thermometer",
+            "Iron stand with clamp",
+            "Wire gauze",
+            "Tripod stand",
+            "Burner or spirit lamp",
+            "Thread",
+            "Water for the bath",
+            "A few drops of an organic liquid sample"
           ],
           "background": "clean school chemistry laboratory",
           "metadata": {
             "scene_id": "chem_12_101_scene",
             "visible_actions": [
-              "arrange apparatus",
-              "perform manual procedure",
-              "record observation"
+              "Heat the beaker gently",
+              "Observe a regular stream of bubbles in the ignition tube",
+              "Note the thermometer temperature at the bubbling endpoint"
             ],
             "image_asset_id": "chem_12_101_start"
           }
         },
         "motion_prompt": {
-          "image_prompt": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand.",
-          "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
-          "moving_object": "arrange apparatus, perform manual procedure, record observation",
+          "image_prompt": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube. Materials: 50 mL glass beaker, Capillary tube sealed at one end, Ignition tube, Thermometer, Iron stand with clamp, Wire gauze, Tripod stand, Burner or spirit lamp, Thread, Water for the bath, A few drops of an organic liquid sample.",
+          "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube. Perform this step: Half-fill a 50 mL glass beaker with water. Seal one end of a capillary tube by heating it in a flame. Put a few drops of the organic liquid in an ignition tube and dip the open capillary end into it. Tie the ignition tube to the thermometer with its lower end near the thermometer bulb. Set the beaker on wire gauze on a tripod and position the thermometer bulb and half of the ignition tube in the water. Show the expected observation: The thermometer bulb and half of the ignition tube are immersed in the bath; the bulb and ignition tube do not touch the beaker. Visible actions may include: Heat the beaker gently, Observe a regular stream of bubbles in the ignition tube, Note the thermometer temperature at the bubbling endpoint. Use only these materials: 50 mL glass beaker, Capillary tube sealed at one end, Ignition tube, Thermometer, Iron stand with clamp, Wire gauze, Tripod stand, Burner or spirit lamp, Thread, Water for the bath, A few drops of an organic liquid sample. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+          "moving_object": "Heat the beaker gently, Observe a regular stream of bubbles in the ignition tube, Note the thermometer temperature at the bubbling endpoint",
           "direction": "controlled, observable laboratory action",
-          "motion": "Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual.",
+          "motion": "Half-fill a 50 mL glass beaker with water. Seal one end of a capillary tube by heating it in a flame. Put a few drops of the organic liquid in an ignition tube and dip the open capillary end into it. Tie the ignition tube to the thermometer with its lower end near the thermometer bulb. Set the beaker on wire gauze on a tripod and position the thermometer bulb and half of the ignition tube in the water.",
           "constraints": "Use only the listed apparatus and materials; preserve scientific order and quantities; Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.",
-          "stop_condition": "Record the visible result and measurement described by the manual for this step.",
+          "stop_condition": "The thermometer bulb and half of the ignition tube are immersed in the bath; the bulb and ignition tube do not touch the beaker.",
           "clip_duration_seconds": 1.0,
           "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
           "metadata": {
@@ -85,31 +95,41 @@
       {
         "name": "clip_2",
         "image_state": {
-          "scene": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+          "scene": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube.",
           "camera": "stable medium shot of a school laboratory bench",
           "lighting": "clear classroom laboratory lighting",
           "objects": [
-            "sample, capillary tube, ignition tube, thermometer, beaker, burner, stand"
+            "50 mL glass beaker",
+            "Capillary tube sealed at one end",
+            "Ignition tube",
+            "Thermometer",
+            "Iron stand with clamp",
+            "Wire gauze",
+            "Tripod stand",
+            "Burner or spirit lamp",
+            "Thread",
+            "Water for the bath",
+            "A few drops of an organic liquid sample"
           ],
           "background": "clean school chemistry laboratory",
           "metadata": {
             "scene_id": "chem_12_101_scene",
             "visible_actions": [
-              "arrange apparatus",
-              "perform manual procedure",
-              "record observation"
+              "Heat the beaker gently",
+              "Observe a regular stream of bubbles in the ignition tube",
+              "Note the thermometer temperature at the bubbling endpoint"
             ],
             "image_asset_id": "chem_12_101_start"
           }
         },
         "motion_prompt": {
-          "image_prompt": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand.",
-          "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Heat the sample gradually and observe the temperature while vapour escapes through the capillary. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
-          "moving_object": "arrange apparatus, perform manual procedure, record observation",
+          "image_prompt": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube. Materials: 50 mL glass beaker, Capillary tube sealed at one end, Ignition tube, Thermometer, Iron stand with clamp, Wire gauze, Tripod stand, Burner or spirit lamp, Thread, Water for the bath, A few drops of an organic liquid sample.",
+          "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube. Perform this step: Heat the beaker gently. Show the expected observation: Watch for a regular stream of bubbles coming out of the liquid in the ignition tube. Visible actions may include: Heat the beaker gently, Observe a regular stream of bubbles in the ignition tube, Note the thermometer temperature at the bubbling endpoint. Use only these materials: 50 mL glass beaker, Capillary tube sealed at one end, Ignition tube, Thermometer, Iron stand with clamp, Wire gauze, Tripod stand, Burner or spirit lamp, Thread, Water for the bath, A few drops of an organic liquid sample. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+          "moving_object": "Heat the beaker gently, Observe a regular stream of bubbles in the ignition tube, Note the thermometer temperature at the bubbling endpoint",
           "direction": "controlled, observable laboratory action",
-          "motion": "Heat the sample gradually and observe the temperature while vapour escapes through the capillary.",
+          "motion": "Heat the beaker gently.",
           "constraints": "Use only the listed apparatus and materials; preserve scientific order and quantities; Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.",
-          "stop_condition": "Record the visible result and measurement described by the manual for this step.",
+          "stop_condition": "Watch for a regular stream of bubbles coming out of the liquid in the ignition tube.",
           "clip_duration_seconds": 1.0,
           "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
           "metadata": {
@@ -136,31 +156,41 @@
       {
         "name": "clip_3",
         "image_state": {
-          "scene": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf.",
+          "scene": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube.",
           "camera": "stable medium shot of a school laboratory bench",
           "lighting": "clear classroom laboratory lighting",
           "objects": [
-            "sample, capillary tube, ignition tube, thermometer, beaker, burner, stand"
+            "50 mL glass beaker",
+            "Capillary tube sealed at one end",
+            "Ignition tube",
+            "Thermometer",
+            "Iron stand with clamp",
+            "Wire gauze",
+            "Tripod stand",
+            "Burner or spirit lamp",
+            "Thread",
+            "Water for the bath",
+            "A few drops of an organic liquid sample"
           ],
           "background": "clean school chemistry laboratory",
           "metadata": {
             "scene_id": "chem_12_101_scene",
             "visible_actions": [
-              "arrange apparatus",
-              "perform manual procedure",
-              "record observation"
+              "Heat the beaker gently",
+              "Observe a regular stream of bubbles in the ignition tube",
+              "Note the thermometer temperature at the bubbling endpoint"
             ],
             "image_asset_id": "chem_12_101_start"
           }
         },
         "motion_prompt": {
-          "image_prompt": "A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand.",
-          "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Perform this step: Record the temperature at which continuous bubbling begins and compare it with the expected boiling point. Show the expected observation: Record the visible result and measurement described by the manual for this step. Visible actions may include: arrange apparatus, perform manual procedure, record observation. Use only these materials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
-          "moving_object": "arrange apparatus, perform manual procedure, record observation",
+          "image_prompt": "A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube. Materials: 50 mL glass beaker, Capillary tube sealed at one end, Ignition tube, Thermometer, Iron stand with clamp, Wire gauze, Tripod stand, Burner or spirit lamp, Thread, Water for the bath, A few drops of an organic liquid sample.",
+          "motion_prompt": "Create a realistic educational science video clip for Class 12 Chemistry experiment 'Determine the boiling point of an organic compound'. Show the scene 'Manual setup and procedure': A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube. Perform this step: Note the thermometer temperature as soon as a regular stream of bubbles is seen coming out of the liquid in the ignition tube. Show the expected observation: The measurement to record is the thermometer reading at the onset of the regular stream of bubbles. Visible actions may include: Heat the beaker gently, Observe a regular stream of bubbles in the ignition tube, Note the thermometer temperature at the bubbling endpoint. Use only these materials: 50 mL glass beaker, Capillary tube sealed at one end, Ignition tube, Thermometer, Iron stand with clamp, Wire gauze, Tripod stand, Burner or spirit lamp, Thread, Water for the bath, A few drops of an organic liquid sample. Follow these reviewed safety notes: Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.. Keep the apparatus, quantities, actions, and scientific outcome accurate. Use clear classroom lighting, stable framing, natural motion, and no labels or watermark.",
+          "moving_object": "Heat the beaker gently, Observe a regular stream of bubbles in the ignition tube, Note the thermometer temperature at the bubbling endpoint",
           "direction": "controlled, observable laboratory action",
-          "motion": "Record the temperature at which continuous bubbling begins and compare it with the expected boiling point.",
+          "motion": "Note the thermometer temperature as soon as a regular stream of bubbles is seen coming out of the liquid in the ignition tube.",
           "constraints": "Use only the listed apparatus and materials; preserve scientific order and quantities; Fix the thermometer so its bulb and the ignition tube do not touch the beaker.; Use liquid paraffin in the beaker instead of water when the boiling point is above 95 degrees Celsius.",
-          "stop_condition": "Record the visible result and measurement described by the manual for this step.",
+          "stop_condition": "The measurement to record is the thermometer reading at the onset of the regular stream of bubbles.",
           "clip_duration_seconds": 1.0,
           "negative_prompt": "blurry, distorted apparatus, incorrect measurements, text artifacts, watermark",
           "metadata": {

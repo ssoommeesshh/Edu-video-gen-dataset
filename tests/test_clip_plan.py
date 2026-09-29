@@ -18,6 +18,8 @@ def test_ready_plan_has_stable_ids_and_sources():
     assert [c["new_scene"] for c in plan["clips"]] == [True, False, False]
     assert all(c["source_passage_ids"] for c in plan["clips"])
     assert plan["visual_review_status"] == "not_reviewed"
+    assert plan["review_provenance"]["review_kinds"] == ["agent_visual_source_review"]
+    assert plan["review_provenance"]["human_review_status"] == "pending"
     clip_id = plan["clips"][0]["clip_id"]
     overridden = plan_experiment(experiment_id="chem_12_101", durations={clip_id: 0.5})
     assert overridden["clips"][0]["duration_seconds"] == 0.5

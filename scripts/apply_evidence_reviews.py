@@ -1,10 +1,10 @@
-"""Copy only hash-checked human review decisions into canonical evidence fields."""
+"""Copy only claim-bound, hash-checked review decisions into canonical evidence fields."""
 from __future__ import annotations
 
 import json
 from pathlib import Path
 
-from build_evidence_graph import ROOT, load_jsonl, read_json, valid_review
+from build_evidence_graph import ROOT, load_jsonl, read_json, valid_review, valid_claim_review
 
 
 def main() -> None:
@@ -33,7 +33,7 @@ def main() -> None:
             entry=reviews.get('claims',{}).get(claim['claim_id'],{})
             pids=entry.get('passage_ids',[])
             accepted=(entry.get('status')=='verified' and bool(pids) and set(pids)<=allowed_passages
-                and valid_review(entry,pids,passages))
+                and valid_claim_review(entry,claim,record,passages))
             if accepted:
                 claim['passage_ids']=pids
                 claim['review_status']='verified'

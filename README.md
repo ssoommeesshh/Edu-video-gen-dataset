@@ -13,13 +13,13 @@ A lightweight, source-traceable catalog of school Chemistry and Physics experime
 - `scripts/build_exports.py`: builds JSONL exports for RAG and prompt generation
 - `scripts/build_rag_index.py`: builds the local TF-IDF retrieval index
 - `evidence/evidence_graph.json`: generated provenance graph joining catalog experiments and claims to proposed sections and exact extracted PDF pages
-- `evidence/reviews.json`: human review decisions and passage hashes; empty until a reviewer approves evidence
+- `evidence/reviews.json`: explicit review decisions, claim hashes, exact quotes, and passage hashes
 - `scripts/build_evidence_graph.py`: rebuilds the local review-gated evidence graph
 - `scripts/query_evidence_graph.py`: retrieves a catalog match with manual locations, exact page text, claim links, status, and nearby experiments
 - `scripts/query_rag.py`: searches the local retrieval index
 - `scripts/build_rag_prompt_bundle.py`: retrieves experiments and creates grounded scene-step prompts
 - `scripts/build_pipeline_handoff.py`: validates an evidence-cleared experiment against the image-to-video `Experiment`/`Clip` contract
-- `scripts/approve_vertical_slice.py`: records the small reviewed PDF-backed vertical slice
+- `scripts/approve_vertical_slice.py`: retired blanket-approval command; exits without changing files
 - `scripts/api_prompt_variation_test.py`: sends prompt variants to a video-generation API
 - `requirements.txt`: dependencies for the local RAG index
 
@@ -27,7 +27,7 @@ The PDF audit tools use `pypdf`. The original manual PDFs are external source ma
 
 The evidence graph is JSON so it stays inspectable and works locally without a graph service. Experiment and claim links derived from titles or text overlap are `candidate` edges. They are not citations or scientific verification. To approve a section or a claim, add an explicit entry to `evidence/reviews.json` with reviewer, review date, the manual hash and passage text hashes, then rebuild the graph. Pages with extraction warnings also require an explicit visual check. The query command returns `no_link_in_supplied_pdfs` when neither supplied manual contains a candidate section; that status does not mean no official source exists.
 
-Review entries are keyed by stable section and claim IDs. A section review records `status: "approved_for_retrieval"`, reviewer, review date, the source PDF SHA-256, and a `passage_hashes` map copied from the referenced pages. A claim review records `status: "verified"`, reviewer, review date, the approved `passage_ids`, and matching passage hashes. Add flagged pages to `visually_checked_passage_ids` only after checking the rendered PDF page. The graph builder rejects stale hashes, missing reviewer metadata, and approvals that omit a flagged page. Claim support approvals never mark neighboring claims as verified.
+Review entries are keyed by stable section and claim IDs. A section review records `status: "approved_for_retrieval"`, reviewer, review date, the source PDF SHA-256, and a `passage_hashes` map copied from the referenced pages. A claim review records `status: "verified"`, reviewer, review date, `review_kind`, `human_review_status`, approved `passage_ids`, matching passage hashes, exact quotes, and `claim_sha256` over the sorted JSON object containing `field_path`, `text`, and `kind`. The field must still match the live canonical value. Old blanket approvals without this binding are rejected. Add flagged pages to `visually_checked_passage_ids` only after checking the rendered PDF page. The graph builder rejects stale hashes, missing reviewer metadata, and approvals that omit a flagged page. Claim support approvals never mark neighboring claims as verified.
 
 After extracting or changing review decisions, rebuild sections and the graph:
 
@@ -37,7 +37,7 @@ python scripts/link_manual_sections.py
 python scripts/migrate_evidence.py
 python scripts/apply_evidence_reviews.py
 python scripts/build_evidence_graph.py
-python scripts/query_evidence_graph.py "Determine the boiling point of an organic compound" --top-n 1
+python scripts/query_evidence_graph.py "Determine the boiling point of an organic compound" --experiment-id chem_12_101 --top-n 1
 ```
 
 The prompt builder now returns a review report with zero prompt inputs until each included action, observation, material, safety note, scene and step-to-scene link has verified source support. An explicit experiment ID selects a catalog record but does not bypass its evidence gate. Images remain optional placeholders.
@@ -47,7 +47,6 @@ The prompt builder now returns a review report with zero prompt inputs until eac
 The current CPU-only vertical slice uses `chem_12_101` (boiling point, Manual_01.pdf printed pages 17-18 / PDF pages 28-29). It maps to ordered pipeline clips without starting image or video generation:
 
 ```powershell
-python scripts/approve_vertical_slice.py
 python scripts/apply_evidence_reviews.py
 python scripts/build_evidence_graph.py
 python scripts/build_pipeline_handoff.py --experiment-id chem_12_101 --output reports/boiling_point_pipeline_handoff.json
@@ -56,7 +55,7 @@ python scripts/build_pipeline_handoff.py --experiment-id chem_9_001 --output rep
 
 The first handoff should be `ready` with three ordered clips and passage IDs on every clip. The diffusion record is intentionally `blocked` because it has no matching passage in the supplied PDFs. The handoff maps to the downstream pipeline's `Experiment`, `Clip`, `Scene`, and `PromptBundle` fields, but leaves the starting image as `placeholder_requires_manual_image`.
 
-The canonical catalog retains stable IDs and records review states for claims, source sections, retrieval eligibility, and video readiness. `evidence/passages.jsonl`, `evidence/sections.json`, and `evidence/evidence_graph.json` are generated evidence artifacts; `evidence/reviews.json` is the human-authored review overlay. A schema-valid record is not automatically source-verified. After editing reviews, run `python scripts/apply_evidence_reviews.py` and rebuild the graph. Keep each scene link at `needs_review` until that step-to-scene mapping has been checked; source claim approval alone does not make an experiment video-ready.
+The canonical catalog retains stable IDs and records review states for claims, source sections, retrieval eligibility, and video readiness. `evidence/passages.jsonl`, `evidence/sections.json`, and `evidence/evidence_graph.json` are generated evidence artifacts; `evidence/reviews.json` is the explicit review overlay. Its `review_kind` distinguishes agent review from human review; the pilot currently has agent visual source review and human review pending. A schema-valid record is not automatically source-verified. After editing reviews, run `python scripts/apply_evidence_reviews.py` and rebuild the graph. Keep each scene link at `needs_review` until that step-to-scene mapping has been checked; source claim approval alone does not make an experiment video-ready.
 
 ## Data contract
 
@@ -167,3 +166,11 @@ Duration defaults to one second per action, explicitly marked `provisional_cpu_t
 Run planner tests with `python -m pytest tests -q` after installing pytest. The checked-in example is a snapshot: rebuild it when data or review records change.
 
 Evidence graph and plan revision hashes normalize text line endings to LF so Windows and Linux checkouts agree. PDF and passage content hashes retain their original semantics.
+
+## One-experiment pilot source review
+
+See `reports/boiling_point_source_review.md` and its JSON companion for the claim-by-claim review of `chem_12_101`. The supplied PDF's printed pages 17-18 (PDF pages 28-29) and Figure 1.1 were visually inspected. Twenty-seven claims have explicit quotes and source hashes. This is an **agent source review**, with **human scientific review pending**; it does not certify real experiment execution or video quality.
+
+The former generic observations and vague materials string were replaced with source-specific content. `approve_vertical_slice.py` has been retired because it previously applied blanket integration approvals. Review decisions now invalidate when the claim text changes, not just when a source page changes. Explicitly reviewed support is evaluated independently of lexical similarity and cannot leak to a different PDF page.
+
+Clip plans and run manifests carry optional `review_provenance`, including the reviewer type and pending human review. The v1 schema addition is backward compatible: older plans remain loadable but do not acquire human approval by omission.

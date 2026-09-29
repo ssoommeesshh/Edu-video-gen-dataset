@@ -235,7 +235,7 @@
   },
   {
     "id": "chem_12_101",
-    "text": "Experiment: Determine the boiling point of an organic compound\nClass: 12\nSubject: Chemistry\nChapter: Characterisation and Purification\nGoal: Perform the Class 12 microscale chemistry experiment 'Determine the boiling point of an organic compound' and record its manual-defined observations and result.\nConcepts: characterisation and purification, laboratory observation, microscale chemistry\nMaterials: sample, capillary tube, ignition tube, thermometer, beaker, burner, stand\nProcedure:\n1. Set up the organic sample, capillary tube, thermometer, and heating bath as shown in the manual. Observation: Record the visible result and measurement described by the manual for this step.\n2. Heat the sample gradually and observe the temperature while vapour escapes through the capillary. Observation: Record the visible result and measurement described by the manual for this step.\n3. Record the temperature at which continuous bubbling begins and compare it with the expected boiling point. Observation: Record the visible result and measurement described by the manual for this step.\nVisual scenes:\nManual setup and procedure: A clean school chemistry bench presents the apparatus and materials for Determine the boiling point of an organic compound, followed by the controlled visible operations described in Manual_01.pdf. Actions: arrange apparatus, perform manual procedure, record observation\nTags: class-12, manual-01, characterisation-and-purification, 1.1",
+    "text": "Experiment: Determine the boiling point of an organic compound\nClass: 12\nSubject: Chemistry\nChapter: Characterisation and Purification\nGoal: Perform the Class 12 microscale chemistry experiment 'Determine the boiling point of an organic compound' and record its manual-defined observations and result.\nConcepts: characterisation and purification, laboratory observation, microscale chemistry\nMaterials: 50 mL glass beaker, Capillary tube sealed at one end, Ignition tube, Thermometer, Iron stand with clamp, Wire gauze, Tripod stand, Burner or spirit lamp, Thread, Water for the bath, A few drops of an organic liquid sample\nProcedure:\n1. Half-fill a 50 mL glass beaker with water. Seal one end of a capillary tube by heating it in a flame. Put a few drops of the organic liquid in an ignition tube and dip the open capillary end into it. Tie the ignition tube to the thermometer with its lower end near the thermometer bulb. Set the beaker on wire gauze on a tripod and position the thermometer bulb and half of the ignition tube in the water. Observation: The thermometer bulb and half of the ignition tube are immersed in the bath; the bulb and ignition tube do not touch the beaker.\n2. Heat the beaker gently. Observation: Watch for a regular stream of bubbles coming out of the liquid in the ignition tube.\n3. Note the thermometer temperature as soon as a regular stream of bubbles is seen coming out of the liquid in the ignition tube. Observation: The measurement to record is the thermometer reading at the onset of the regular stream of bubbles.\nVisual scenes:\nManual setup and procedure: A 50 mL beaker on wire gauze and a tripod contains the bath. A clamped thermometer has the ignition tube tied alongside it, with the tube lower end near the thermometer bulb. The bulb and half of the ignition tube are immersed without touching the beaker. A capillary tube has its open end dipped in the organic liquid in the ignition tube. Actions: Heat the beaker gently, Observe a regular stream of bubbles in the ignition tube, Note the thermometer temperature at the bubbling endpoint\nTags: class-12, manual-01, characterisation-and-purification, 1.1",
     "metadata": {
       "subject": "Chemistry",
       "class_level": 12,
@@ -250,17 +250,20 @@
       "source_ids": [
         "manual_01_pdf"
       ],
-      "source_verification": "unverified",
-      "retrieval_eligibility": "review_required",
-      "video_readiness": "review_required",
+      "source_verification": "verified",
+      "retrieval_eligibility": "eligible",
+      "video_readiness": "ready",
       "section_ids": [
         "chem_12_101:manual_section"
       ],
       "citations": [
         {
           "source_id": "manual_01_pdf",
-          "passage_ids": [],
-          "verification_status": "needs_page_check"
+          "passage_ids": [
+            "Manual_01:fc4dcbac1a60:p0028",
+            "Manual_01:fc4dcbac1a60:p0029"
+          ],
+          "verification_status": "verified"
         }
       ]
     }

@@ -9,7 +9,16 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
-GRAPH_VERSION = 3
+GRAPH_VERSION = 4
+
+
+def evidence_fingerprint(root):
+    """One newline-stable fingerprint shared by graph builders and consumers."""
+    names = ['data/chemistry_experiments.json', 'evidence/manuals.json', 'evidence/sections.json',
+             'evidence/passages.jsonl', 'evidence/reviews.json']
+    hashes = ''.join(hashlib.sha256((root / name).read_text(encoding='utf-8').encode('utf-8')).hexdigest()
+                     for name in names)
+    return hashlib.sha256((str(GRAPH_VERSION) + hashes).encode('utf-8')).hexdigest()
 
 
 def read_json(path: Path) -> Any:
@@ -40,6 +49,33 @@ def valid_review(review: dict[str, Any], passage_ids: list[str], passages: dict[
         return False
     flagged={pid for pid in passage_ids if passages[pid].get('quality_flags')}
     return flagged.issubset(set(review.get('visually_checked_passage_ids',[])))
+
+
+def valid_claim_review(review, claim, record, passages):
+    """Bind a review to the current field value as well as the source passages."""
+    current = record
+    try:
+        for part in claim['field_path'].strip('/').split('/'):
+            current = current[int(part)] if isinstance(current, list) else current[part]
+    except (KeyError, IndexError, ValueError, TypeError):
+        return False
+    if current != claim['text']:
+        return False
+    binding = {'field_path': claim['field_path'], 'text': claim['text'], 'kind': claim['kind']}
+    digest = hashlib.sha256(json.dumps(binding, sort_keys=True, ensure_ascii=False).encode('utf-8')).hexdigest()
+    if review.get('claim_sha256') != digest:
+        return False
+    pids = review.get('passage_ids', [])
+    if not pids or not valid_review(review, pids, passages):
+        return False
+    quotes = review.get('quotes', [])
+    if {q.get('passage_id') for q in quotes} != set(pids):
+        return False
+    for quote in quotes:
+        text = ' '.join(quote.get('exact_quote', '').split())
+        if not text or text not in ' '.join(passages[quote['passage_id']]['text'].split()):
+            return False
+    return True
 
 
 def build_graph() -> dict[str, Any]:
@@ -132,22 +168,20 @@ def build_graph() -> dict[str, Any]:
                     if not p:
                         continue
                     score=overlap(claim['text'],p['text'])
-                    if score >= 0.12:
-                        approved_ids=claim_review.get('passage_ids',[])
-                        approved=(section_review.get('status')=='approved_for_retrieval'
-                            and valid_review(section_review,section['passage_ids'],passages)
-                            and section_review.get('manual_sha256')==next(m['sha256'] for m in manuals if m['filename']==section['manual_filename'])
-                            and pid in approved_ids and claim_review.get('status')=='verified'
-                            and valid_review(claim_review,approved_ids,passages))
+                    approved_ids=claim_review.get('passage_ids',[])
+                    # Recompute for every passage; approvals must never leak between pages.
+                    approved=(section_review.get('status')=='approved_for_retrieval'
+                        and valid_review(section_review,section['passage_ids'],passages)
+                        and section_review.get('manual_sha256')==next(m['sha256'] for m in manuals if m['filename']==section['manual_filename'])
+                        and pid in approved_ids and claim_review.get('status')=='verified'
+                        and valid_claim_review(claim_review,claim,record,passages))
                     if score >= 0.12 or approved:
                         edges.append({'from':claim['claim_id'],'type':'SUPPORTED_BY' if approved else 'CANDIDATE_SUPPORT',
                             'to':pid,'score':round(score,4),
                             'status':'verified' if approved else 'candidate_needs_human_review'})
-    inputs=['data/chemistry_experiments.json','evidence/manuals.json','evidence/sections.json',
-        'evidence/passages.jsonl','evidence/reviews.json']
-    digest=hashlib.sha256((str(GRAPH_VERSION)+''.join(hashlib.sha256((ROOT/name).read_text(encoding="utf-8").encode("utf-8")).hexdigest() for name in inputs)).encode()).hexdigest()
+    digest=evidence_fingerprint(ROOT)
     return {'schema_version':GRAPH_VERSION,'build_fingerprint':digest,
-        'semantics':'CANDIDATE_SUPPORT edges are lexical review suggestions, never evidence verification. Only human review creates SUPPORTED_BY edges.',
+        'semantics':'CANDIDATE_SUPPORT edges are lexical suggestions. SUPPORTED_BY requires an explicit claim-bound review with exact source quotes; consult evidence/reviews.json for agent versus human review. Source support is not scientific or visual certification.',
         'counts':{'experiments':len(records),'sections':len(sections),'passages':len(passages),
             'claims':sum(1 for n in nodes if n['type']=='claim'),'edges':len(edges),**counts},
         'nodes':nodes,'edges':edges}
